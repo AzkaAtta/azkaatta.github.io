@@ -5,16 +5,16 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     margin: 0;
-    color: #333;
+    color: #ffffff; /* Warna teks utama diubah menjadi putih agar terbaca di background gelap */
     line-height: 1.6;
 
-    /* --- KODE UNTUK BACKGROUND ANIMASI --- */
-    background: linear-gradient(-45deg, #a7b6d6, #6f86b8, #4e69a2, #3b5998);
+    /* --- BACKGROUND ANIMASI LEBIH CERAH --- */
+    background: linear-gradient(-45deg, #4d94ff, #66a3ff, #80b3ff, #99c2ff);
     background-size: 400% 400%;
-    animation: moveGradient 20s ease-in-out infinite;
+    animation: moveGradient 15s ease-in-out infinite;
 }
 
-/* Perintah untuk animasinya */
+/* Perintah untuk animasinya (durasi dipercepat sedikit) */
 @keyframes moveGradient {
     0% {
         background-position: 0% 50%;
@@ -30,11 +30,13 @@ body {
 /* Membuat area konten utama tidak terlalu lebar di layar besar */
 header, main, footer {
     max-width: 960px;
-    margin: 20px auto; /* Membuatnya di tengah secara horizontal */
+    margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff;
+    
+    /* --- INI BAGIAN PENTING YANG DIUBAH --- */
+    background-color: rgba(0, 0, 0, 0.2); /* Latar belakang semi-transparan, bukan putih solid */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: none; /* Menghapus bayangan karena tidak relevan lagi */
     text-align: center;
 }
 
@@ -43,21 +45,20 @@ main {
 }
 
 h1, h2, h3 {
-    color: #2c3e50;
+    color: #ffffff; /* Warna judul diubah menjadi putih */
 }
 
 footer {
     font-size: 0.9em;
-    color: #777;
+    color: #e0e0e0; /* Warna footer dibuat sedikit lebih redup */
     margin-top: 40px;
-    background: none;
-    box-shadow: none;
+    background: none; /* Hapus background spesifik untuk footer */
 }
 
 hr {
     border: 0;
     height: 1px;
-    background-color: #e9ecef;
+    background-color: rgba(255, 255, 255, 0.3); /* Membuat garis lebih soft */
 }
 
 
@@ -72,7 +73,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #007bff;
+    color: #ffffff; /* Warna link menu menjadi putih */
     padding: 8px 12px;
     margin: 0 5px;
     border-radius: 5px;
@@ -80,7 +81,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #e9ecef;
+    background-color: rgba(255, 255, 255, 0.2);
     text-decoration: none;
 }
 
@@ -89,56 +90,50 @@ nav a:hover {
 /* 3. GAYA KHUSUS UNTUK DROPDOWN MENU "LAYANAN" */
 /* =========================================== */
 
-/* Wadah/container untuk elemen dropdown */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Tombol "Layanan" itu sendiri agar terlihat sama seperti link lain */
 .dropbtn {
   background-color: transparent;
-  color: #007bff;
+  color: #ffffff; /* Warna tombol dropdown menjadi putih */
   padding: 8px 12px;
-  font-size: 16px; /* Samakan dengan ukuran font sekitar */
+  font-size: 16px;
   border: none;
   cursor: pointer;
-  font-family: inherit; /* Pakai font yang sama dengan body */
+  font-family: inherit;
 }
 
 .dropbtn:hover {
-    background-color: #e9ecef;
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
 }
 
-/* Kotak konten dropdown yang awalnya tersembunyi */
 .dropdown-content {
-  display: none; /* Sembunyikan secara default */
-  position: absolute; /* Muncul tepat di bawah tombol */
-  background-color: #ffffff;
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.95); /* Latar dropdown dibuat hampir solid agar mudah dibaca */
   min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1; /* Pastikan muncul di atas elemen lain */
+  z-index: 1;
   border-radius: 5px;
   text-align: left;
 }
 
-/* Link di dalam dropdown */
 .dropdown-content a {
-  color: black;
+  color: #333333; /* Teks di dalam dropdown kembali menjadi gelap */
   padding: 12px 16px;
   text-decoration: none;
-  display: block; /* Membuat seluruh area baris bisa di-klik */
-  margin: 0; /* Menghapus margin dari nav a */
+  display: block;
+  margin: 0;
   border-radius: 0;
 }
 
-/* Efek hover untuk link di dalam dropdown */
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
 
-/* Perintah untuk menampilkan dropdown saat container di-hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }

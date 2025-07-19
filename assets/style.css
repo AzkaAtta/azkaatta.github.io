@@ -359,7 +359,7 @@ main h1 {
 
 /* Styling untuk setiap item FAQ */
 .faq-section details {
-  background-color: rgba(0, 0, 0, 0.2); /* Latar semi-transparan */
+  background-color: transparent
   border-radius: 8px;
   margin-bottom: 10px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -415,7 +415,7 @@ main h1 {
   max-width: 960px;
   margin: 40px auto;
   padding: 40px 20px;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: transparent
   border-radius: 8px;
   text-align: center;
 }

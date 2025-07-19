@@ -209,3 +209,62 @@ main h1 {
 .active, .dot:hover {
   background-color: #717171;
 }
+
+/* =========================================== */
+/* 5. GAYA UNTUK BAGIAN KEUNGGULAN (6 KOTAK)   */
+/* =========================================== */
+
+.features-section {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.features-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.2em;
+}
+
+/* Membuat grid dengan 3 kolom */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 kolom dengan lebar yang sama */
+  gap: 25px; /* Jarak antar kotak */
+}
+
+/* Tampilan untuk setiap kotak */
+.feature-box {
+  background-color: rgba(0, 0, 0, 0.25); /* Latar semi-transparan */
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Garis tepi tipis */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek saat kursor menyentuh kotak */
+.feature-box:hover {
+  transform: translateY(-10px); /* Kotak sedikit terangkat */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature-box h3 {
+  margin-top: 0;
+  color: #ffffff;
+  border-bottom: 2px solid #f09433; /* Garis bawah oranye pada judul kotak */
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.feature-box p {
+  color: #e0e0e0; /* Warna teks deskripsi agar tidak terlalu terang */
+  font-size: 0.95em;
+}
+
+/* Penyesuaian untuk layar kecil (ponsel) */
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr; /* Ubah menjadi 1 kolom saja */
+  }
+}

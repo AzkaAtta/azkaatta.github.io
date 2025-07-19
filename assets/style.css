@@ -127,3 +127,85 @@ nav a:hover, .dropbtn:hover {
 main h1 {
   text-align: center;
 }
+
+/* =========================================== */
+/* 4. GAYA UNTUK SLIDER                        */
+/* =========================================== */
+
+.slider-container {
+  max-width: 960px; /* Samakan dengan lebar konten lain */
+  position: relative;
+  margin: auto;
+  overflow: hidden; /* Sembunyikan slide lain */
+  border-radius: 8px;
+}
+
+.slide {
+  display: none; /* Sembunyikan semua slide secara default */
+  animation: fade 1.5s ease-in-out;
+}
+
+.slide-content {
+  color: white;
+  font-size: 20px;
+  padding: 80px 40px;
+  text-align: center;
+  /* Beri background gradasi di setiap slide */
+  background: linear-gradient(-45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: white;
+}
+
+/* Animasi untuk efek fade in/out */
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Tombol di dalam slider */
+.button {
+    background-color: #ffffff;
+    color: #dc2743;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+.button:hover {
+    transform: scale(1.05);
+    background-color: #fff;
+}
+
+
+/* Tombol navigasi titik-titik (dots) */
+.slider-dots {
+  text-align: center;
+  padding: 20px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}

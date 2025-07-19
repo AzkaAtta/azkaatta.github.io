@@ -443,3 +443,27 @@ main h1 {
   background-color: #128C7E; /* Warna WhatsApp saat di-hover */
   transform: scale(1.05); /* Sedikit membesar saat di-hover */
 }
+
+/* =========================================== */
+/* 9. GAYA UNTUK IKON MEDIA SOSIAL DI FOOTER   */
+/* =========================================== */
+
+.social-icons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-icons a {
+  color: #ffffff; /* Warna ikon */
+  font-size: 1.8em; /* Ukuran ikon */
+  margin: 0 15px; /* Jarak antar ikon */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block; /* Agar efek transform bekerja dengan baik */
+}
+
+/* Efek saat kursor menyentuh ikon */
+.social-icons a:hover {
+  color: #99c2ff; /* Warna ikon saat disentuh */
+  transform: translateY(-5px); /* Ikon sedikit terangkat */
+}

@@ -1,5 +1,99 @@
-title: Situs Pertamaku
-description: Belajar membuat website dengan Jekyll.
+# ===============================
+# INFORMASI DASAR SITUS (WAJIB)
+# ===============================
+title: AuraDigital
+description: >-
+  Jasa Buzzer Sosial Media Profesional untuk membuat brand dan konten Anda viral 
+  di TikTok, Instagram, Twitter, dan platform lainnya.
+url: "https://auradigital.id"
+baseurl: "" # kosongkan jika di root domain
+lang: id
 
+# ===============================
+# PENULIS DAN BRAND (WAJIB)
+# ===============================
+author:
+  name: Azka Atta
+  email: info@auradigital.id
+
+# ===============================
+# MEDIA SOSIAL (UNTUK SEO & OG TAG)
+# ===============================
+social:
+  name: AuraDigital
+  links:
+    - https://instagram.com/auradigital.id
+    - https://twitter.com/auradigitalid
+    - https://facebook.com/auradigitalid
+    - https://t.me/auradigitalid
+
+# ===============================
+# GAMBAR DEFAULT UNTUK SHARE (OG IMAGE)
+# ===============================
+image: /assets/images/og-image.png
+
+# ===============================
+# META KEYWORDS (LANDSCAPE STYLE)
+# AKAN DIPANGGIL DI <HEAD> LAYOUT
+# ===============================
+keywords: jasa buzzer, buzzer instagram, buzzer tiktok, buzzer murah, jasa viral konten, promosi sosial media, jasa komentar, beli like, jasa endorse, jasa view tiktok, jasa komen, jasa share, beli followers, akun aktif indonesia
+
+# ===============================
+# SEO PLUGIN (WAJIB AKTIF)
+# ===============================
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-robots-txt
+
+# ===============================
+# GOOGLE SEARCH CONSOLE & ANALYTICS
+# ===============================
+google_site_verification: "isi_kode_verifikasi_googlemu"
+google_analytics: "G-XXXXXXXXXX" # opsional
+
+# ===============================
+# SITEMAP
+# ===============================
+sitemap:
+  filename: sitemap.xml
+  exclude:
+    - /assets/
+    - /drafts/
+  include_posts: true
+  changefreq: weekly
+  priority: 1.0
+
+# ===============================
+# ROBOTS.TXT OTOMATIS
+# ===============================
+robots:
+  sitemap: true
+  user-agent: "*"
+  allow: "/"
+
+# ===============================
+# DEFAULTS UNTUK SEMUA HALAMAN
+# ===============================
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+      lang: id
+      permalink: /:title/
+
+# ===============================
+# SCHEMA.ORG STRUCTURE (BASIC ORGANIZATION INFO)
+# ===============================
+organization:
+  name: AuraDigital
+  url: "https://auradigital.id"
+  logo: /assets/images/logo.png
+  sameAs:
+    - https://instagram.com/auradigital.id
+    - https://twitter.com/auradigitalid
+    - https://t.me/auradigitalid
+    - https://facebook.com/auradigitalid

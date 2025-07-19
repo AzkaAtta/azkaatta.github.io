@@ -1,0 +1,127 @@
+/* =========================================== */
+/* 1. GAYA DASAR UNTUK SELURUH WEBSITE         */
+/* =========================================== */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Membuat area konten utama tidak terlalu lebar di layar besar */
+header, main, footer {
+    max-width: 960px;
+    margin: 20px auto; /* Membuatnya di tengah secara horizontal */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+main {
+    text-align: left;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+footer {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 40px;
+    background: none;
+    box-shadow: none;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #e9ecef;
+}
+
+
+/* =========================================== */
+/* 2. GAYA UNTUK MENU NAVIGASI                 */
+/* =========================================== */
+
+nav {
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #e9ecef;
+    text-decoration: none;
+}
+
+
+/* =========================================== */
+/* 3. GAYA KHUSUS UNTUK DROPDOWN MENU "LAYANAN" */
+/* =========================================== */
+
+/* Wadah/container untuk elemen dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tombol "Layanan" itu sendiri agar terlihat sama seperti link lain */
+.dropbtn {
+  background-color: transparent;
+  color: #007bff;
+  padding: 8px 12px;
+  font-size: 16px; /* Samakan dengan ukuran font sekitar */
+  border: none;
+  cursor: pointer;
+  font-family: inherit; /* Pakai font yang sama dengan body */
+}
+
+.dropbtn:hover {
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+/* Kotak konten dropdown yang awalnya tersembunyi */
+.dropdown-content {
+  display: none; /* Sembunyikan secara default */
+  position: absolute; /* Muncul tepat di bawah tombol */
+  background-color: #ffffff;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; /* Pastikan muncul di atas elemen lain */
+  border-radius: 5px;
+  text-align: left;
+}
+
+/* Link di dalam dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; /* Membuat seluruh area baris bisa di-klik */
+  margin: 0; /* Menghapus margin dari nav a */
+  border-radius: 0;
+}
+
+/* Efek hover untuk link di dalam dropdown */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Perintah untuk menampilkan dropdown saat container di-hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

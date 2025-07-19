@@ -340,3 +340,69 @@ main h1 {
 .testimonial-dots .active, .testimonial-dots .dot:hover {
   background-color: #ffffff;
 }
+
+/* =========================================== */
+/* 7. GAYA UNTUK BAGIAN FAQ (ACCORDION)        */
+/* =========================================== */
+
+.faq-section {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.faq-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.2em;
+}
+
+/* Styling untuk setiap item FAQ */
+.faq-section details {
+  background-color: rgba(0, 0, 0, 0.2); /* Latar semi-transparan */
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Styling untuk pertanyaan (bagian yang terlihat) */
+.faq-section summary {
+  padding: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none; /* Menghilangkan panah default */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+/* Menambahkan panah custom (segitiga) */
+.faq-section summary::after {
+  content: '▶';
+  font-size: 0.8em;
+  transition: transform 0.3s ease;
+}
+
+/* Memutar panah saat jawaban terbuka */
+.faq-section details[open] summary::after {
+  transform: rotate(90deg);
+}
+
+/* Styling untuk konten jawaban */
+.faq-content {
+  padding: 0 20px 20px 20px;
+  text-align: left;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.faq-content p {
+  margin: 0;
+  padding-top: 15px;
+  color: #e0e0e0;
+}
+
+.faq-content a {
+    color: #99c2ff; /* Warna link biru muda */
+    text-decoration: underline;
+}

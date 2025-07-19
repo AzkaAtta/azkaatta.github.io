@@ -123,3 +123,8 @@ nav a:hover, .dropbtn:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* Membuat judul utama di tengah */
+main h1 {
+  text-align: center;
+}

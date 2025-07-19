@@ -1,62 +1,72 @@
-<script>
-  // Fungsi untuk menginisialisasi sebuah slider
-  function initializeSlider(sliderContainerClass, dotContainerClass) {
-    const container = document.querySelector('.' + sliderContainerClass);
-    if (!container) return; // Hentikan jika kontainer tidak ditemukan
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    {% seo %}
+</head>
+<body>
 
-    const slides = container.getElementsByClassName('slide') || container.getElementsByClassName('testimonial-slide');
-    const dotsContainer = document.querySelector('.' + dotContainerClass);
-    let slideIndex = 0;
+    <header>
+        <h1>{{ site.title }}</h1>
+        {% include navigation.html %}
+        <hr>
+    </header>
 
-    // Buat dots sejumlah slide
-    dotsContainer.innerHTML = ''; // Kosongkan dots lama
-    for (let i = 0; i < slides.length; i++) {
-        const dot = document.createElement('span');
-        dot.className = 'dot';
-        dot.onclick = () => showSpecificSlide(i);
-        dotsContainer.appendChild(dot);
-    }
-    const dots = dotsContainer.getElementsByClassName('dot');
-
-    // Fungsi untuk menampilkan slide
-    function showSlides() {
-        if (slides.length === 0) return;
-
-        // Sembunyikan semua slide
-        for (let i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        
-        // Pindah ke slide berikutnya
-        slideIndex++;
-        if (slideIndex > slides.length) {
-            slideIndex = 1
-        }
-
-        // Hapus status 'active' dari semua dot
-        for (let i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        
-        // Tampilkan slide dan dot yang sesuai
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-
-        setTimeout(showSlides, 7000); // Ganti slide setiap 7 detik
-    }
+    <main>
+        {{ content }}
+    </main>
     
-    // Fungsi untuk pindah ke slide tertentu (saat dot di-klik)
-    function showSpecificSlide(n) {
-        slideIndex = n;
+    <footer>
+        <hr>
+        <p>Hak Cipta &copy; 2025 - {{ site.title }}</p>
+    </footer>
+
+    <script>
+      // Kode untuk Slider
+      function initializeSlider(sliderContainerClass, dotContainerClass) {
+        const container = document.querySelector('.' + sliderContainerClass);
+        if (!container) return;
+        const slides = container.getElementsByClassName('slide') || container.getElementsByClassName('testimonial-slide');
+        const dotsContainer = document.querySelector('.' + dotContainerClass);
+        let slideIndex = 0;
+        if (!dotsContainer) return;
+        dotsContainer.innerHTML = '';
+        for (let i = 0; i < slides.length; i++) {
+            const dot = document.createElement('span');
+            dot.className = 'dot';
+            dot.onclick = () => showSpecificSlide(i);
+            dotsContainer.appendChild(dot);
+        }
+        const dots = dotsContainer.getElementsByClassName('dot');
+        function showSlides() {
+            if (slides.length === 0) return;
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (let i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 7000);
+        }
+        function showSpecificSlide(n) {
+            slideIndex = n;
+            showSlides();
+        }
         showSlides();
-    }
-
-    showSlides(); // Mulai slider
-  }
-
-  // Jalankan fungsi untuk setiap slider di halaman Anda
-  document.addEventListener('DOMContentLoaded', function() {
-      initializeSlider('slider-container', 'slider-dots');
-      initializeSlider('testimonial-slider-container', 'testimonial-dots');
-  });
-</script>
+      }
+      document.addEventListener('DOMContentLoaded', function() {
+          initializeSlider('slider-container', 'slider-dots');
+          initializeSlider('testimonial-slider-container', 'testimonial-dots');
+      });
+    </script>
+    
+    </body>
+</html>

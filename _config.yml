@@ -1,0 +1,5 @@
+title: Situs Pertamaku
+description: Belajar membuat website dengan Jekyll.
+
+plugins:
+  - jekyll-seo-tag

@@ -406,3 +406,40 @@ main h1 {
     color: #99c2ff; /* Warna link biru muda */
     text-decoration: underline;
 }
+
+/* =========================================== */
+/* 8. GAYA UNTUK TOMBOL WHATSAPP (CTA)         */
+/* =========================================== */
+
+.cta-section {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 40px 20px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.cta-section h2 {
+  margin-top: 0;
+  font-size: 2.2em;
+}
+
+.button-whatsapp {
+  display: inline-block;
+  background-color: #25D366; /* Warna khas WhatsApp */
+  color: white;
+  padding: 15px 30px;
+  margin-top: 20px;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 50px; /* Membuatnya berbentuk kapsul */
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button-whatsapp:hover {
+  background-color: #128C7E; /* Warna WhatsApp saat di-hover */
+  transform: scale(1.05); /* Sedikit membesar saat di-hover */
+}

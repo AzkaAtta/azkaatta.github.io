@@ -1,72 +1,60 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/style.css">
-    {% seo %}
-</head>
-<body>
+<script>
+  // Fungsi yang lebih pintar untuk menginisialisasi slider
+  function initializeSlider(containerClass, slideClass, dotsClass, interval) {
+    const container = document.querySelector('.' + containerClass);
+    const dotsContainer = document.querySelector('.' + dotsClass);
 
-    <header>
-        <h1>{{ site.title }}</h1>
-        {% include navigation.html %}
-        <hr>
-    </header>
+    // Hentikan jika salah satu elemen penting tidak ditemukan
+    if (!container || !dotsContainer) {
+      // console.error("Slider elements not found for:", containerClass);
+      return;
+    }
 
-    <main>
-        {{ content }}
-    </main>
-    
-    <footer>
-        <hr>
-        <p>Hak Cipta &copy; 2025 - {{ site.title }}</p>
-    </footer>
+    const slides = container.getElementsByClassName(slideClass);
+    let slideIndex = 0;
 
-    <script>
-      // Kode untuk Slider
-      function initializeSlider(sliderContainerClass, dotContainerClass) {
-        const container = document.querySelector('.' + sliderContainerClass);
-        if (!container) return;
-        const slides = container.getElementsByClassName('slide') || container.getElementsByClassName('testimonial-slide');
-        const dotsContainer = document.querySelector('.' + dotContainerClass);
-        let slideIndex = 0;
-        if (!dotsContainer) return;
-        dotsContainer.innerHTML = '';
-        for (let i = 0; i < slides.length; i++) {
-            const dot = document.createElement('span');
-            dot.className = 'dot';
-            dot.onclick = () => showSpecificSlide(i);
-            dotsContainer.appendChild(dot);
-        }
-        const dots = dotsContainer.getElementsByClassName('dot');
-        function showSlides() {
-            if (slides.length === 0) return;
-            for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {
-                slideIndex = 1
-            }
-            for (let i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            setTimeout(showSlides, 7000);
-        }
-        function showSpecificSlide(n) {
-            slideIndex = n;
-            showSlides();
-        }
-        showSlides();
+    // Buat dots sejumlah slide
+    dotsContainer.innerHTML = ''; // Kosongkan dots lama
+    for (let i = 0; i < slides.length; i++) {
+        const dot = document.createElement('span');
+        dot.className = 'dot';
+        // Fungsi onclick bisa ditambahkan di sini jika diperlukan
+        dotsContainer.appendChild(dot);
+    }
+    const dots = dotsContainer.getElementsByClassName('dot');
+
+    // Fungsi utama untuk menampilkan slide
+    function showSlides() {
+      if (slides.length === 0) return;
+
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
       }
-      document.addEventListener('DOMContentLoaded', function() {
-          initializeSlider('slider-container', 'slider-dots');
-          initializeSlider('testimonial-slider-container', 'testimonial-dots');
-      });
-    </script>
-    
-    </body>
-</html>
+      
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1
+      }
+
+      for (let i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+
+      setTimeout(showSlides, interval); // Ganti slide sesuai interval
+    }
+
+    showSlides(); // Mulai slider
+  }
+
+  // Menjalankan fungsi untuk setiap slider setelah halaman dimuat
+  document.addEventListener('DOMContentLoaded', function() {
+      // Menjalankan slider utama, ganti slide setiap 5 detik
+      initializeSlider('slider-container', 'slide', 'slider-dots', 5000);
+      
+      // Menjalankan slider testimoni, ganti slide setiap 7 detik
+      initializeSlider('testimonial-slider-container', 'testimonial-slide', 'testimonial-dots', 7000);
+  });
+</script>

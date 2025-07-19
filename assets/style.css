@@ -28,12 +28,11 @@ body {
     }
 }
 
-/* Membuat area konten tidak terlalu lebar dan transparan */
 header, main, footer {
     max-width: 960px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.25); /* Latar semi-transparan agar background body terlihat */
+    background: none; /* UBAH MENJADI SEPERTI INI */
     border-radius: 8px;
     text-align: center;
 }

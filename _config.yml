@@ -97,3 +97,11 @@ organization:
     - https://twitter.com/auradigitalid
     - https://t.me/auradigitalid
     - https://facebook.com/auradigitalid
+
+    defaults:
+  - scope:
+      path: ""
+      type: "html"
+    values:
+      layout: default
+

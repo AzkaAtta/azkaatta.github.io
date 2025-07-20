@@ -6,11 +6,11 @@ title: Jasa Social Media Marketing
 # ===============================
 # INFORMASI DASAR SITUS (WAJIB)
 # ===============================
-title: AuraDigital
+title: auradigital
 description: >-
   Jasa Buzzer Sosial Media Profesional untuk membuat brand dan konten Anda viral 
   di TikTok, Instagram, Twitter, dan platform lainnya.
-url: "https://azkaatta.github.io"
+url: https://auradigital.id
 baseurl: "" # karena kamu di root repo gh-pages
 lang: id
 
@@ -18,16 +18,16 @@ lang: id
 # PENULIS DAN BRAND (WAJIB)
 # ===============================
 author:
-  name: AuraDigital
+  name: auradigital
   email: warungaapagaden@gmail.com
 
 # ===============================
 # MEDIA SOSIAL (UNTUK SEO & OG TAG)
 # ===============================
 social:
-  name: AuraDigital
+  name: auradigital
   links:
-    - https://instagram.com/auradigital.id
+    - https://instagram.com/jasa.buzzerdigital.id
     - https://twitter.com/auradigitalid
     - https://facebook.com/auradigitalid
     - https://t.me/auradigitalid
@@ -94,11 +94,11 @@ defaults:
 # SCHEMA.ORG STRUCTURE
 # ===============================
 organization:
-  name: AuraDigital
-  url: "https://azkaatta.github.io"
+  name: auradigital
+  url: https://auradigital.id
   logo: /assets/images/logo.png
   sameAs:
-    - https://instagram.com/auradigital.id
+    - https://instagram.com/jasa.buzzerdigital.id
     - https://twitter.com/auradigitalid
     - https://t.me/auradigitalid
     - https://facebook.com/auradigitalid

@@ -5,15 +5,15 @@ title: AuraDigital
 description: >-
   Jasa Buzzer Sosial Media Profesional untuk membuat brand dan konten Anda viral 
   di TikTok, Instagram, Twitter, dan platform lainnya.
-url: "https://auradigital.id"
-baseurl: "" # kosongkan jika di root domain
+url: "https://azkaatta.github.io"
+baseurl: "" # karena kamu di root repo gh-pages
 lang: id
 
 # ===============================
 # PENULIS DAN BRAND (WAJIB)
 # ===============================
 author:
-  name: auradigital
+  name: AuraDigital
   email: warungaapagaden@gmail.com
 
 # ===============================
@@ -51,7 +51,7 @@ plugins:
 # GOOGLE SEARCH CONSOLE & ANALYTICS
 # ===============================
 google_site_verification: "isi_kode_verifikasi_googlemu"
-google_analytics: "G-XXXXXXXXXX" # opsional
+google_analytics: "G-XXXXXXXXXX"
 
 # ===============================
 # SITEMAP
@@ -77,20 +77,20 @@ robots:
 # DEFAULTS UNTUK SEMUA HALAMAN
 # ===============================
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
+      type: "pages"
     values:
       layout: default
       lang: id
       permalink: /:title/
 
 # ===============================
-# SCHEMA.ORG STRUCTURE (BASIC ORGANIZATION INFO)
+# SCHEMA.ORG STRUCTURE
 # ===============================
 organization:
   name: AuraDigital
-  url: "https://auradigital.id"
+  url: "https://azkaatta.github.io"
   logo: /assets/images/logo.png
   sameAs:
     - https://instagram.com/auradigital.id

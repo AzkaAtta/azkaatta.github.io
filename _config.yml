@@ -10,7 +10,7 @@ title: auradigital
 description: >-
   Jasa Buzzer Sosial Media Profesional untuk membuat brand dan konten Anda viral 
   di TikTok, Instagram, Twitter, dan platform lainnya.
-url: https://auradigital.id
+url: "https://auradigital.id"
 baseurl: "" # karena kamu di root repo gh-pages
 lang: id
 
@@ -95,7 +95,7 @@ defaults:
 # ===============================
 organization:
   name: auradigital
-  url: https://auradigital.id
+  url: "https://auradigital.id"
   logo: /assets/images/logo.png
   sameAs:
     - https://instagram.com/jasa.buzzerdigital.id

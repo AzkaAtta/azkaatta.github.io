@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Jasa Komentar TikTok: Solusi Terbaik Tingkatkan Interaksi & FYP Video
-# ... dst ...
+description: "Butuh jasa komentar TikTok real & aktif? Dapatkan solusi tambah komentar TikTok custom yang aman, cepat, dan profesional. Bantu video kamu viral, masuk FYP, tingkatkan interaksi, dan bangun kredibilitas akun. Kami jual beli komentar TikTok terpercaya."
+keywords: "jasa komentar tiktok, jasa tambah komentar tiktok, beli komentar tiktok, tukang komen tiktok, jasa komentar video tiktok, jasa beli komentar tiktok, jasa komentar aktif tiktok, jasa komentar real tiktok, jasa komentar organik tiktok, jasa komentar profesional tiktok, jasa komentar murah tiktok, jasa komentar cepat tiktok, jasa komentar aman tiktok, komentar custom tiktok, beli komentar video tiktok, beli komentar real tiktok, harga jasa komentar tiktok, tempat beli komentar tiktok, cara beli komentar tiktok, website jasa komentar tiktok, agen komentar tiktok, jasa komentar tiktok terpercaya"
+---
 
 <h1 style="text-align: center; color: #fff; text-shadow: 0 0 4px rgba(0,0,0,0.7); padding: 20px 15px;">
     Jasa Komentar TikTok: Kunci Pasti Viral & Dominasi Halaman FYP

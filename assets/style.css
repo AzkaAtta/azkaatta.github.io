@@ -467,3 +467,47 @@ main h1 {
   color: #99c2ff; /* Warna ikon saat disentuh */
   transform: translateY(-5px); /* Ikon sedikit terangkat */
 }
+
+/* =========================================== */
+/* 10. GAYA UNTUK HALAMAN LAYANAN              */
+/* =========================================== */
+
+/* Grid untuk kartu layanan */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 kolom di layar besar */
+  gap: 25px;
+  margin-top: 40px;
+}
+
+/* Tampilan untuk setiap kartu layanan */
+.service-card {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  margin-top: 0;
+  color: #ffffff;
+  border-bottom: 2px solid #e6683c; /* Garis bawah oranye */
+  padding-bottom: 10px;
+}
+
+.service-card p {
+  color: #e0e0e0;
+  font-size: 0.95em;
+}
+
+/* Penyesuaian untuk layar kecil (ponsel) */
+@media (max-width: 768px) {
+  .service-grid {
+    grid-template-columns: 1fr; /* Ubah menjadi 1 kolom saja */
+  }
+}

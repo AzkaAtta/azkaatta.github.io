@@ -47,7 +47,7 @@ permalink: /layanan/jasa-like-tiktok/
     {
       "@type": "Product",
       "name": "Like TikTok Aktif",
-      "image": "https://auradigital.id/wp-content/uploads/2025/07/like-tiktok-aktif.jpg",
+      "image": "[https://auradigital.id/wp-content/uploads/2025/07/like-tiktok-aktif.jpg](https://github.com/AzkaAtta/azkaatta.github.io/blob/main/image/jasa-like-tiktok.webp)",
       "description": "Beli like TikTok aktif Indonesia, cocok untuk meningkatkan kepercayaan akun dan memperbesar peluang FYP.",
       "brand": {
         "@type": "Brand",

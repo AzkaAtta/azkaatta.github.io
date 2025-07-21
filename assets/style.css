@@ -634,11 +634,13 @@ main h1 {
         margin-top: 15px;
     }
     
-.service-card h3 a {
+.service-card h3 a,
+.service-card h3 a:visited,
+.service-card h3 a:active {
   color: white !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .service-card h3 a:hover {
-  color: #ffd700 !important; /* kuning saat hover */
+  color: #ffd700 !important;
 }

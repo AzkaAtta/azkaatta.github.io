@@ -1,96 +1,63 @@
 ---
-layout: page
-title: "Jasa Like TikTok Murah Aman Real Indonesia - auradigital.id"
+layout: default
+title: Jasa Like TikTok Real Human & Aktif Indonesia
+description: Beli like TikTok murah dan terpercaya dari akun real human Indonesia. Tingkatkan kredibilitas dan bantu video Anda masuk FYP dengan layanan aman & cepat dari AuraDigital.
 permalink: /layanan/jasa-like-tiktok/
-description: "Jasa like TikTok termurah & tercepat, real like dari pengguna aktif Indonesia. Cocok untuk FYP & jualan. Garansi aman & terpercaya."
-keywords: jasa like tiktok, beli like tiktok, layanan like tiktok, tambah like tiktok
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "name": "auradigital.id",
-      "url": "https://auradigital.id"
-    },
-    {
-      "@type": "Product",
-      "name": "Jasa Like TikTok",
-      "description": "Layanan tambah like TikTok murah dan aman dari auradigital.id.",
-      "brand": {
-        "@type": "Brand",
-        "name": "auradigital.id"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "IDR",
-        "price": "1000",
-        "availability": "https://schema.org/InStock"
-      }
-    },
-    {
-      "@type": "Service",
-      "name": "Jasa Like TikTok",
-      "provider": {
-        "@type": "Organization",
-        "name": "auradigital.id",
-        "url": "https://auradigital.id"
-      }
-    },
-    {
-      "@type": "Person",
-      "name": "Admin auradigital.id",
-      "url": "https://auradigital.id/about"
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Apakah jasa like TikTok ini aman?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ya, semua layanan kami menggunakan metode yang aman dan tidak melanggar aturan TikTok."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Berapa harga jasa like TikTok?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Harga mulai dari Rp1.000 untuk 100 like, tergantung jumlah dan kecepatan."
-          }
-        }
-      ]
-    }
-  ]
-}
-</script>
+<div class="page-content">
+  
+  <h2 style="text-align: center;">Tingkatkan Kredibilitas Video Anda dengan Jasa Like TikTok</h2>
+  
+  <p style="text-align: center;">Video Anda sudah bagus tapi jumlah like-nya sedikit? Jangan biarkan konten berkualitas Anda sepi interaksi. Jumlah like adalah salah satu faktor pertama yang dilihat audiens untuk menilai apakah sebuah video layak ditonton.</p>
 
-# Jasa Like TikTok Aman, Murah & Terpercaya
+  <div class="cta-section-top">
+    <a href="https://wa.me/6281234567890?text=Halo%20AuraDigital,%20saya%20tertarik%20dengan%20jasa%20like%20TikTok." class="button-whatsapp" target="_blank">
+      Pesan Jasa Like TikTok Sekarang
+    </a>
+  </div>
 
-![jasa like tiktok murah real indonesia](https://auradigital.id/assets/img/tiktok-like.jpg)
+  ---
 
-👉 [Chat WhatsApp Sekarang](https://wa.me/6281234567890)
+  ### Mengapa Jumlah Like di TikTok Sangat Penting?
 
-Deskripsi jasa Like TikTok kami...
+  Di platform yang serba cepat seperti TikTok, kesan pertama adalah segalanya. Jumlah like yang tinggi memberikan banyak keuntungan:
 
-<div class="service-card">
-  <h1>Jasa Like TikTok</h1>
+  * **Meningkatkan Kredibilitas & Kepercayaan:** Video dengan banyak like secara otomatis dianggap lebih berkualitas dan tepercaya oleh pengguna lain.
+  * **Memicu Algoritma FYP:** Interaksi awal yang tinggi (termasuk like) adalah sinyal kuat bagi algoritma TikTok untuk mendorong video Anda ke audiens yang lebih luas.
+  * **Efek Psikologis (Social Proof):** Orang cenderung menyukai apa yang sudah disukai oleh banyak orang lain. Like yang banyak akan memancing lebih banyak interaksi organik.
+  * **Menarik Perhatian Brand Lain:** Akun dengan engagement tinggi lebih menarik bagi brand lain untuk kerja sama atau sponsorship.
 
-  <img src="https://auradigital.id/images/like-tiktok.jpg" alt="Jasa Like TikTok" style="width:100%; border-radius:10px; margin:10px 0;">
+  ---
 
-  <a href="https://wa.me/62895402343693?text=Halo%20Admin%2C%20saya%20mau%20pesan%20jasa%20like%20TikTok%20ya" 
-     target="_blank" 
-     style="display:inline-block; background-color:#25D366; color:white; padding:12px 20px; text-decoration:none; border-radius:8px; font-weight:bold;">
-    💬 Pesan Sekarang via WhatsApp
-  </a>
+  ### Keunggulan Layanan Like TikTok Kami
 
-  <p style="margin-top:15px; color:#333; font-size:16px;">
-    Anda cari solusi untuk menambah like TikTok? Kami jual jasa like TikTok terpercaya yang Anda butuhkan. 
-    Di sini Anda bisa beli like berkualitas dengan harga murah dan proses super cepat. 
-    Layanan kami dijamin 100% aman untuk akun Anda dan meningkatkan interaksi real.
-  </p>
+  <div class="features-grid" style="grid-template-columns: repeat(2, 1fr);">
+    <div class="feature-box">
+      <h3>100% Real Human Indonesia</h3>
+      <p>Kami tidak menggunakan bot. Semua like berasal dari akun-akun TikTok asli dan aktif dari Indonesia, sehingga terlihat natural dan aman.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Proses Cepat & Mudah</h3>
+      <p>Proses pemesanan sangat mudah. Cukup berikan link video Anda, dan like akan mulai masuk dalam waktu singkat setelah pesanan dikonfirmasi.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Aman dan Terpercaya</h3>
+      <p>Kami menjamin keamanan akun Anda. Kami tidak pernah meminta password atau akses login apa pun. Cukup URL video Anda.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Harga Terjangkau</h3>
+      <p>Dapatkan ribuan like dengan harga yang kompetitif. Investasi kecil untuk dampak besar pada popularitas konten Anda.</p>
+    </div>
+  </div>
+
+  ---
+  
+  ### Cara Memesan
+
+  1.  **Pilih Paket:** Hubungi kami untuk melihat daftar paket like yang tersedia.
+  2.  **Kirim Link Video:** Berikan kami link/URL video TikTok yang ingin Anda tingkatkan.
+  3.  **Lakukan Pembayaran:** Selesaikan pembayaran melalui metode yang kami sediakan.
+  4.  **Proses Dimulai:** Tim kami akan segera memproses pesanan Anda. Anda tinggal memantau jumlah like yang terus bertambah!
+
 </div>

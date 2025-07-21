@@ -14,7 +14,7 @@ permalink: /layanan/jasa-like-tiktok/
       "@type": "WebSite",
       "@id": "https://auradigital.id/#website",
       "url": "https://auradigital.id/",
-      "name": "AuraDigital.id"
+      "name": "auradigital.id"
     },
     {
       "@type": "WebPage",
@@ -35,7 +35,7 @@ permalink: /layanan/jasa-like-tiktok/
       "serviceType": "Social Media Engagement",
       "provider": {
         "@type": "WebSite",
-        "name": "AuraDigital.id",
+        "name": "auradigital.id",
         "url": "https://auradigital.id/"
       },
       "areaServed": {
@@ -52,7 +52,7 @@ permalink: /layanan/jasa-like-tiktok/
       "offers": {
         "@type": "Offer",
         "priceCurrency": "IDR",
-        "price": "1000",
+        "price": "2000",
         "availability": "https://schema.org/InStock",
         "url": "https://auradigital.id/layanan/jasa-like-tiktok/"
       }

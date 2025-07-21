@@ -641,6 +641,8 @@ main h1 {
   text-decoration: none !important;
 }
 
-.service-card h3 a:hover {
+.service-card h3 a:hover,
+.service-card h3 a:focus {
   color: #ffd700 !important;
+  text-decoration: none !important;
 }

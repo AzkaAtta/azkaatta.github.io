@@ -113,7 +113,7 @@ permalink: /layanan/jasa-like-tiktok/
 <div class="jasa-komentar-tiktok-container">
     <div class="service-card" id="jasa-like-tiktok-card" onclick="toggleService(this)">
         <h3>Jasa Like TikTok Terbaik & Terpercaya</h3>
-        <img src="image/jasa-like-tiktok.webp" alt="Jasa Like TikTok" style="max-width:100%; height:auto; display:block; margin:auto;" loading="lazy">
+        <img src="/image/jasa-like-tiktok.webp" alt="Jasa Like TikTok" style="max-width:100%; height:auto;" loading="lazy">
         <a href="https://wa.me/6283873628980?text=Halo,%20saya%20tertarik%20dengan%20Jasa%20Like%20TikTok.%20Bisa%20info%20lebih%20lanjut?" target="_blank" class="whatsapp-button" style="display: block; width: fit-content; margin: 20px auto; padding: 15px 30px; background-color: #25D366; color: white; text-align: center; text-decoration: none; border-radius: 50px; font-size: 1.2em; font-weight: bold; transition: background-color 0.3s ease;">
             Pesan Sekarang
         </a>

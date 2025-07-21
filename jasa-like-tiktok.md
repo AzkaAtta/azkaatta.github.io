@@ -45,17 +45,21 @@ permalink: /layanan/jasa-like-tiktok/
       "description": "Layanan jasa tambah like TikTok aktif Indonesia yang cepat dan aman. Cocok untuk meningkatkan performa video dan interaksi real."
     },
     {
-      "@type": "Product",
-      "name": "Like TikTok Aktif",
-      "description": "Beli like TikTok aktif Indonesia, cocok untuk meningkatkan kepercayaan akun dan memperbesar peluang FYP.",
-      "brand": "AuraDigital.id",
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "IDR",
-        "price": "2000",
-        "availability": "https://schema.org/InStock",
-        "url": "https://auradigital.id/layanan/jasa-like-tiktok/"
-      }
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Like TikTok Aktif",
+  "image": "https://auradigital.id/wp-content/uploads/2025/07/like-tiktok-aktif.jpg",
+  "description": "Beli like TikTok aktif Indonesia, cocok untuk meningkatkan kepercayaan akun dan memperbesar peluang FYP.",
+  "brand": "AuraDigital.id",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "IDR",
+    "price": "2000",
+    "availability": "https://schema.org/InStock",
+    "url": "https://auradigital.id/layanan/jasa-like-tiktok/"
+  }
+}
+
     },
     {
       "@type": "BreadcrumbList",

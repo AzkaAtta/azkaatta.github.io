@@ -9,63 +9,98 @@ permalink: /layanan/jasa-like-tiktok/
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  "@graph": [
     {
-      "@type": "Question",
-      "name": "Apa itu jasa like TikTok?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Jasa like TikTok adalah layanan untuk menambahkan jumlah like pada video TikTok Anda secara aman dan cepat, meningkatkan popularitas dan jangkauan konten Anda."
+      "@type": "WebSite",
+      "@id": "https://auradigital.id/#website",
+      "url": "https://auradigital.id/",
+      "name": "AuraDigital.id"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://auradigital.id/layanan/jasa-like-tiktok/#webpage",
+      "url": "https://auradigital.id/layanan/jasa-like-tiktok/",
+      "name": "Jasa Like TikTok Aktif Indonesia - Aman & Cepat",
+      "isPartOf": {
+        "@id": "https://auradigital.id/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://auradigital.id/layanan/jasa-like-tiktok/#breadcrumb"
+      },
+      "description": "Jasa Like TikTok aktif Indonesia. Tambah like cepat, aman, dan terpercaya. Cocok untuk akun jualan dan konten kreator. Order sekarang!"
+    },
+    {
+      "@type": "Service",
+      "name": "Jasa Like TikTok",
+      "serviceType": "Social Media Engagement",
+      "provider": {
+        "@type": "WebSite",
+        "name": "AuraDigital.id",
+        "url": "https://auradigital.id/"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Indonesia"
+      },
+      "description": "Layanan jasa tambah like TikTok aktif Indonesia yang cepat dan aman. Cocok untuk meningkatkan performa video dan interaksi real."
+    },
+    {
+      "@type": "Product",
+      "name": "Like TikTok Aktif",
+      "description": "Beli like TikTok aktif Indonesia, cocok untuk meningkatkan kepercayaan akun dan memperbesar peluang FYP.",
+      "brand": "AuraDigital.id",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IDR",
+        "price": "1000",
+        "availability": "https://schema.org/InStock",
+        "url": "https://auradigital.id/layanan/jasa-like-tiktok/"
       }
     },
     {
-      "@type": "Question",
-      "name": "Apakah like berasal dari akun asli?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ya, kami berfokus pada penyediaan like dari akun-akun real dan aktif untuk memastikan interaksi yang berkualitas dan terlihat organik."
-      }
+      "@type": "BreadcrumbList",
+      "@id": "https://auradigital.id/layanan/jasa-like-tiktok/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://auradigital.id/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Layanan",
+          "item": "https://auradigital.id/layanan/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jasa Like TikTok",
+          "item": "https://auradigital.id/layanan/jasa-like-tiktok/"
+        }
+      ]
     },
     {
-      "@type": "Question",
-      "name": "Apakah perlu password akun TikTok saya?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Tidak. Kami tidak memerlukan password akun TikTok Anda. Anda hanya perlu memberikan link video yang ingin ditambah likenya."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Apa manfaat beli like TikTok?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Membeli like dapat meningkatkan metrik interaksi video Anda, memperbesar peluang video masuk FYP TikTok, dan membangun kredibilitas serta daya tarik konten Anda di mata audiens baru."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Berapa lama proses pengiriman like?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Proses pengiriman like biasanya dimulai dalam hitungan menit hingga beberapa jam setelah pesanan dikonfirmasi, tergantung pada jumlah like yang dipesan."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Apakah layanan ini aman untuk akun saya?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Layanan kami dirancang untuk aman dan sesuai dengan kebijakan TikTok. Kami tidak menggunakan bot dan menjaga proses seorganik mungkin."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Bagaimana cara memesan jasa like TikTok?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cukup klik tombol 'Pesan Sekarang' di halaman ini, lalu kirimkan link video TikTok Anda melalui WhatsApp. Tim kami akan memandu Anda lebih lanjut."
-      }
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Apakah like TikTok dari layanan ini real?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ya, layanan kami menyediakan like TikTok aktif dari pengguna Indonesia yang real dan aman."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Berapa lama proses penambahan like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Proses penambahan like biasanya berlangsung dalam 1-10 menit setelah pembayaran berhasil."
+          }
+        }
+      ]
     }
   ]
 }

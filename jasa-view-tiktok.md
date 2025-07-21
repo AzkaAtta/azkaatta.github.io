@@ -46,21 +46,21 @@ permalink: /layanan/jasa-view-tiktok/
       "description": "View TikTok aman dan real? Di sini tempatnya! Tambah view cepat dari akun aktif, layanan terpercaya dan harga murah untuk semua jenis akun TikTok"
     },
     {
-  "@context": "https://schema.org/",
-  "@type": "Product",
-  "name": "View TikTok Aktif",
-  "image": "https://raw.githubusercontent.com/AzkaAtta/azkaatta.github.io/main/image/jasa-view-tiktok.webp",
-  "description": "Butuh jasa view TikTok real dan aman? Tambah view asli dari akun aktif dengan harga murah dan layanan cepat. Solusi tepat konten viral FYP.",
-  "brand": "AuraDigital.id",
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "IDR",
-    "price": "2000",
-    "availability": "https://schema.org/InStock",
-    "url": "https://auradigital.id/layanan/jasa-view-tiktok/"
-  }
-}
-
+      "@type": "Product",
+      "name": "View TikTok Aktif",
+      "image": "https://raw.githubusercontent.com/AzkaAtta/azkaatta.github.io/main/image/jasa-view-tiktok.webp",
+      "description": "Butuh jasa view TikTok real dan aman? Tambah view asli dari akun aktif dengan harga murah dan layanan cepat. Solusi tepat konten viral FYP.",
+      "brand": {
+        "@type": "Brand",
+        "name": "AuraDigital.id"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IDR",
+        "price": "2000",
+        "availability": "https://schema.org/InStock",
+        "url": "https://auradigital.id/layanan/jasa-view-tiktok/"
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -110,6 +110,7 @@ permalink: /layanan/jasa-view-tiktok/
   ]
 }
 </script>
+
 
 <h1 style="text-align: center; color: #fff; text-shadow: 0 0 4px rgba(0,0,0,0.7); padding: 20px 15px;">
     Jasa view TikTok murah, aman, cepat, dan real. Tambah view asli dari akun aktif untuk konten viral. Solusi beli view TikTok terpercaya!

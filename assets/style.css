@@ -633,13 +633,12 @@ main h1 {
     .tiktok-expand-icon {
         margin-top: 15px;
     }
-}
-
-.sub-menu a {
+    
+.service-card h3 a {
   color: white !important;
   text-decoration: none;
 }
 
-.sub-menu a:hover {
-  color: #ffd700; /* kuning saat hover */
+.service-card h3 a:hover {
+  color: #ffd700 !important; /* kuning saat hover */
 }

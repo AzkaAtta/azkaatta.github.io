@@ -634,3 +634,12 @@ main h1 {
         margin-top: 15px;
     }
 }
+
+.sub-menu a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.sub-menu a:hover {
+  color: #ffd700; /* kuning saat hover */
+}

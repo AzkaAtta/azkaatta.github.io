@@ -46,17 +46,21 @@ permalink: /layanan/jasa-view-tiktok/
       "description": "View TikTok aman dan real? Di sini tempatnya! Tambah view cepat dari akun aktif, layanan terpercaya dan harga murah untuk semua jenis akun TikTok"
     },
     {
-      "@type": "Product",
-      "name": "Like TikTok Aktif",
-      "description": "Butuh jasa view TikTok real dan aman? Tambah view asli dari akun aktif dengan harga murah dan layanan cepat. Solusi tepat konten viral FYP",
-      "brand": "AuraDigital.id",
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "IDR",
-        "price": "2000",
-        "availability": "https://schema.org/InStock",
-        "url": "https://auradigital.id/layanan/jasa-view-tiktok/"
-      }
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "View TikTok Aktif",
+  "image": "https://raw.githubusercontent.com/AzkaAtta/azkaatta.github.io/main/image/jasa-view-tiktok.webp",
+  "description": "Butuh jasa view TikTok real dan aman? Tambah view asli dari akun aktif dengan harga murah dan layanan cepat. Solusi tepat konten viral FYP.",
+  "brand": "AuraDigital.id",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "IDR",
+    "price": "2000",
+    "availability": "https://schema.org/InStock",
+    "url": "https://auradigital.id/layanan/jasa-view-tiktok/"
+  }
+}
+
     },
     {
       "@type": "BreadcrumbList",

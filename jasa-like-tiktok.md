@@ -1,13 +1,5 @@
 ---
 layout: default
-title: "Jasa Like TikTok Murah, Cepat, dan Aman - auradigital.id"
-description: "Pesan jasa tambah like TikTok terpercaya, aktif dan real dari auradigital.id. Cocok untuk konten jualan, FYP, dan branding akun pribadi atau bisnis."
-keywords: "jasa like tiktok, beli like tiktok, tambah like tiktok murah, jasa tambah like tiktok, like tiktok aktif, like tiktok Indonesia, like tiktok real"
----
-
-<script type="application/ld+json">
----
-layout: default
 title: "Jasa Like TikTok Murah Aman Real Indonesia - auradigital.id"
 description: "Jasa like TikTok termurah & tercepat, real like dari pengguna aktif Indonesia. Cocok untuk FYP & jualan. Garansi aman & terpercaya."
 keywords: jasa like tiktok, beli like tiktok, layanan like tiktok, tambah like tiktok
@@ -76,6 +68,14 @@ permalink: /jasa-like-tiktok/
   ]
 }
 </script>
+
+# Jasa Like TikTok Aman, Murah & Terpercaya
+
+![jasa like tiktok murah real indonesia](https://auradigital.id/assets/img/tiktok-like.jpg)
+
+👉 [Chat WhatsApp Sekarang](https://wa.me/6281234567890)
+
+Deskripsi jasa Like TikTok kami...
 
 <div class="service-card">
   <h1>Jasa Like TikTok</h1>

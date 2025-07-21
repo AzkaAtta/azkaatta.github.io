@@ -104,3 +104,21 @@ keywords: "jasa like tiktok, beli like tiktok, tambah like tiktok murah, jasa ta
   ]
 }
 </script>
+
+<div class="service-card">
+  <h1>Jasa Like TikTok</h1>
+
+  <img src="https://auradigital.id/images/like-tiktok.jpg" alt="Jasa Like TikTok" style="width:100%; border-radius:10px; margin:10px 0;">
+
+  <a href="https://wa.me/62895402343693?text=Halo%20Admin%2C%20saya%20mau%20pesan%20jasa%20like%20TikTok%20ya" 
+     target="_blank" 
+     style="display:inline-block; background-color:#25D366; color:white; padding:12px 20px; text-decoration:none; border-radius:8px; font-weight:bold;">
+    💬 Pesan Sekarang via WhatsApp
+  </a>
+
+  <p style="margin-top:15px; color:#333; font-size:16px;">
+    Anda cari solusi untuk menambah like TikTok? Kami jual jasa like TikTok terpercaya yang Anda butuhkan. 
+    Di sini Anda bisa beli like berkualitas dengan harga murah dan proses super cepat. 
+    Layanan kami dijamin 100% aman untuk akun Anda dan meningkatkan interaksi real.
+  </p>
+</div>

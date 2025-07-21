@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Jasa Like TikTok Murah Aman Real Indonesia - auradigital.id"
-permalink: /jasa-like-tiktok/
+permalink: /layanan/jasa-like-tiktok/
 description: "Jasa like TikTok termurah & tercepat, real like dari pengguna aktif Indonesia. Cocok untuk FYP & jualan. Garansi aman & terpercaya."
 keywords: jasa like tiktok, beli like tiktok, layanan like tiktok, tambah like tiktok
 ---

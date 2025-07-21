@@ -132,3 +132,48 @@ permalink: /layanan/jasa-like-tiktok/
         </p>
     </details>
 </div>
+
+<style>
+  .hidden-content { display: none; margin-top: 10px; }
+  .toggle-btn { cursor: pointer; color: #007bff; text-decoration: underline; margin-top: 10px; display: inline-block; }
+</style>
+
+<div class="toggle-btn" onclick="toggleHidden()">📌 Baca Selengkapnya</div>
+<div id="hiddenContent" class="hidden-content">
+  <ul>
+    <li>Gunakan jasa like TikTok kami untuk menaikkan interaksi video secara cepat dan stabil dengan akun real Indonesia.</li>
+    <li>Beli like TikTok aman dan terpercaya, cocok untuk memperkuat kepercayaan audiens dan algoritma For You Page.</li>
+    <li>Tambahkan like TikTok aktif setiap hari untuk mempertahankan popularitas dan menjaga branding konten Anda.</li>
+    <li>Layanan jasa like TikTok cepat masuk, real user, dan cocok untuk jualan maupun konten viral.</li>
+    <li>Jasa like TikTok kami mendukung berbagai niche seperti hiburan, edukasi, fashion, dan bisnis online shop.</li>
+    <li>Beli like TikTok murah tanpa ribet, tidak butuh password, cukup link dan jumlah sesuai kebutuhan Anda.</li>
+    <li>Like TikTok real bukan bot, dari akun aktif yang memperkuat kredibilitas dan potensi naik FYP.</li>
+    <li>Dapatkan like TikTok berkualitas tinggi, 100% aman dan bisa repeat order kapan saja.</li>
+    <li>Jasa like TikTok terbaik dengan sistem otomatisasi yang cepat tanggap dan dukungan CS ramah.</li>
+    <li>Like TikTok dari pengguna Indonesia aktif, bantu bangun komunitas dan engagement lokal.</li>
+    <li>Tambah like TikTok secara instan, cocok untuk akun pribadi, bisnis, hingga konten kreator pemula.</li>
+    <li>Gunakan jasa kami untuk beli like TikTok dengan variasi jumlah sesuai kebutuhan dan budget Anda.</li>
+    <li>Like TikTok aktif membantu menaikkan daya tarik visual konten sehingga lebih sering direkomendasikan.</li>
+    <li>Jasa like TikTok yang cocok untuk pemilik brand, dropshipper, reseller, hingga selebgram TikTok.</li>
+    <li>Beli like TikTok dengan harga terjangkau, tapi tetap berkualitas dan hasil terlihat cepat.</li>
+    <li>Tambah like TikTok otomatis saat posting video baru, bantu viral lebih cepat dan konsisten.</li>
+    <li>Jasa kami mendukung sistem repeat order dan notifikasi untuk update proses pengiriman like TikTok Anda.</li>
+    <li>Gunakan jasa like TikTok untuk membangun kepercayaan sosial di konten baru atau video promosi Anda.</li>
+    <li>Like TikTok real sangat penting untuk branding akun dan meningkatkan peluang endorse.</li>
+    <li>Layanan kami cocok untuk meningkatkan konten campaign, giveaway, atau konten promosi musiman di TikTok.</li>
+  </ul>
+</div>
+
+<script>
+  function toggleHidden() {
+    var content = document.getElementById("hiddenContent");
+    var button = document.querySelector(".toggle-btn");
+    if (content.style.display === "none") {
+      content.style.display = "block";
+      button.textContent = "📌 Tutup Selengkapnya";
+    } else {
+      content.style.display = "none";
+      button.textContent = "📌 Baca Selengkapnya";
+    }
+  }
+</script>

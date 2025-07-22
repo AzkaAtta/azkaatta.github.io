@@ -188,7 +188,7 @@ Anda bisa request isi komentar sesuai niche atau target audiens</li>
 <div class="toggle-btn" onclick="toggleHidden()">📌 Baca Selengkapnya</div>
 <div id="hiddenContent" class="hidden-content">
   <ul>
-    <li>Gunakan jasa like TikTok kami untuk menaikkan interaksi video secara cepat dan stabil dengan akun real Indonesia.</li>
+    <li>Gunakan jasa komentar TikTok kami untuk menaikkan interaksi video secara cepat dan stabil dengan akun real Indonesia.</li>
     <ul>
   <li>Beli komentar TikTok terpercaya dari akun real Indonesia untuk meningkatkan interaksi secara alami.</li>
   <li>Jasa komentar TikTok cocok untuk konten viral, campaign, dan video promosi agar lebih ramai dan menarik.</li>

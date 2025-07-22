@@ -245,8 +245,7 @@ permalink: /layanan/jasa-livestreaming-tiktok/
 </style>
 
 <div class="toggle-btn" onclick="toggleHidden()">📌 Baca Selengkapnya</div>
-<div id="hiddenContent" class="hidden-content">
-  <div id="hiddenContent" class="hidden-content">
+ <div id="hiddenContent" class="hidden-content">
   <li>Jasa livestreaming TikTok murah dan cepat, bantu live Anda langsung ramai dengan penonton aktif.</li>
   <li>Beli penonton live TikTok real dan stabil, cocok untuk kreator, bisnis, dan TikTok Shop.</li>
   <li>Jasa nonton live TikTok terpercaya, viewer masuk cepat tanpa akun palsu.</li>

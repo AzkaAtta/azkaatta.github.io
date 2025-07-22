@@ -33,6 +33,14 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Jasa Komentar TikTok -->
+<url>
+  <loc>https://auradigital.id/layanan/jasa-komentar-tiktok/</loc>
+  <lastmod>2025-07-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
   <!-- Halaman Kontak -->
   <url>
     <loc>https://auradigital.id/kontak/</loc>

@@ -49,6 +49,14 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Jasa Followers TikTok -->
+<url>
+  <loc>https://auradigital.id/layanan/jasa-followers-tiktok/</loc>
+  <lastmod>2025-07-22</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
   <!-- Halaman About -->
   <url>
     <loc>https://auradigital.id/about/</loc>

@@ -196,36 +196,82 @@ permalink: /layanan/jasa-share-tiktok/
 </style>
 
 <div class="toggle-container">
-    <div class="toggle-btn" onclick="toggleHiddenContent()">📌 Baca Selengkapnya (Kata Kunci SEO)</div>
+
+    <div class="toggle-btn" onclick="toggleSeoContent()">📌 Baca Selengkapnya (Kata Kunci SEO)</div>
+    
     <div id="hiddenSeoContent" class="hidden-content">
-  <ul>
-    <li><strong>Jasa share tiktok</strong> terpercaya dari akun real human.</li>
-    <li><strong>Beli share tiktok</strong> untuk mempercepat video masuk FYP.</li>
-    <li>Layanan <strong>jasa bagikan tiktok</strong> dengan proses cepat dan aman.</li>
-    <li>Solusi <strong>viral tiktok</strong> dengan memperbanyak jumlah share.</li>
-    <li><strong>Tambah share tiktok</strong> untuk mengirim sinyal kuat ke algoritma.</li>
-    <li><strong>Jasa fyp tiktok</strong> melalui optimasi metrik share.</li>
-    <li><strong>Meningkatkan jangkauan tiktok</strong> secara masif dengan share.</li>
-    <li><strong>Harga jasa share tiktok</strong> yang murah dan kompetitif.</li>
-    <li>Layanan <strong>jasa buzzer tiktok</strong> khusus untuk share campaign.</li>
-    <li><strong>Share tiktok real human</strong>, bukan dari bot.</li>
-    <li>Cara efektif <strong>agar video tiktok masuk fyp</strong> dengan share.</li>
-    <li><strong>Jual share tiktok</strong> bergaransi dan non-drop.</li>
-    <li>Proses <strong>aman tanpa password</strong>, cukup kirim link video.</li>
-    <li>Share berasal dari <strong>akun aktif Indonesia</strong> yang terverifikasi.</li>
-    <li>Layanan <strong>share tiktok permanen</strong> untuk dampak jangka panjang.</li>
-    <li><strong>Order share tiktok</strong> mudah, cukup beberapa klik saja.</li>
-    <li>Ledakkan <strong>impresi video TikTok</strong> Anda dengan sinyal share.</li>
-    <li><strong>Penyedia jasa viral TikTok</strong> dengan rekam jejak terbukti.</li>
-    <li>Hasil masuk <strong>instan</strong> setelah pesanan Anda dikonfirmasi.</li>
-    <li>Sangat efektif untuk <strong>promosi produk</strong> dan konten <strong>jualan</strong>.</li>
-</ul>
+        <ul>
+            <li><strong>Jasa share tiktok</strong> terpercaya dari akun real human.</li>
+            <li><strong>Beli share tiktok</strong> untuk mempercepat video masuk FYP.</li>
+            <li>Layanan <strong>jasa bagikan tiktok</strong> dengan proses cepat dan aman.</li>
+            <li>Solusi <strong>viral tiktok</strong> dengan memperbanyak jumlah share.</li>
+            <li><strong>Tambah share tiktok</strong> untuk mengirim sinyal kuat ke algoritma.</li>
+            <li><strong>Jasa fyp tiktok</strong> melalui optimasi metrik share.</li>
+            <li><strong>Meningkatkan jangkauan tiktok</strong> secara masif dengan share.</li>
+            <li><strong>Harga jasa share tiktok</strong> yang murah dan kompetitif.</li>
+            <li>Layanan <strong>jasa buzzer tiktok</strong> khusus untuk share campaign.</li>
+            <li><strong>Share tiktok real human</strong>, bukan dari bot.</li>
+            <li>Cara efektif <strong>agar video tiktok masuk fyp</strong> dengan share.</li>
+            <li><strong>Jual share tiktok</strong> bergaransi dan non-drop.</li>
+            <li>Proses <strong>aman tanpa password</strong>, cukup kirim link video.</li>
+            <li>Share berasal dari <strong>akun aktif Indonesia</strong> yang terverifikasi.</li>
+            <li>Layanan <strong>share tiktok permanen</strong> untuk dampak jangka panjang.</li>
+            <li><strong>Order share tiktok</strong> mudah, cukup beberapa klik saja.</li>
+            <li>Ledakkan <strong>impresi video TikTok</strong> Anda dengan sinyal share.</li>
+            <li><strong>Penyedia jasa viral TikTok</strong> dengan rekam jejak terbukti.</li>
+            <li>Hasil masuk <strong>instan</strong> setelah pesanan Anda dikonfirmasi.</li>
+            <li>Sangat efektif untuk <strong>promosi produk</strong> dan konten <strong>jualan</strong>.</li>
+        </ul>
+    </div>
 </div>
 
 <style>
-    /* Struktur CSS Anda tidak diubah */
+    .toggle-container {
+        margin-top: 20px; 
+    }
+    .toggle-btn {
+        cursor: pointer;
+        color: #007bff;
+        text-decoration: underline;
+        display: inline-block;
+        font-weight: bold;
+    }
+    .hidden-content {
+        /* KUNCI #1: Konten disembunyikan di awal */
+        display: none; 
+        margin-top: 15px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        color: #111; /* Memastikan teks berwarna hitam */
+    }
+    .hidden-content ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .hidden-content li {
+        margin-bottom: 8px;
+    }
 </style>
 
 <script>
-    // Struktur JS Anda tidak diubah
+    function toggleSeoContent() {
+        var content = document.getElementById("hiddenSeoContent");
+        var button = document.querySelector(".toggle-btn");
+        
+        if (content.style.display === "none" || content.style.display === "") {
+            content.style.display = "block";
+            button.textContent = "📌 Tutup Selengkapnya";
+        } else {
+            content.style.display = "none";
+            button.textContent = "📌 Baca Selengkapnya (Kata Kunci SEO)";
+        }
+    }
+
+    // Baris ini memastikan konten pasti tersembunyi saat halaman pertama kali dimuat
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("hiddenSeoContent").style.display = "none";
+        document.querySelector(".toggle-btn").textContent = "📌 Baca Selengkapnya (Kata Kunci SEO)";
+    });
 </script>

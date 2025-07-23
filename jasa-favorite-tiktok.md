@@ -196,37 +196,80 @@ permalink: /layanan/jasa-favorite-tiktok/
 </style>
 
 <div class="toggle-container">
+
     <div class="toggle-btn" onclick="toggleSeoContent()">📌 Baca Selengkapnya</div>
+    
     <div id="hiddenSeoContent" class="hidden-content">
-  <ul>
-    <li><strong>Jasa favorite tiktok</strong> terpercaya dari akun real human.</li>
-    <li><strong>Beli favorite tiktok</strong> untuk membuat konten terlihat berkualitas.</li>
-    <li>Layanan <strong>jasa save tiktok</strong> dengan proses cepat dan aman.</li>
-    <li>Solusi <strong>viral tiktok</strong> dengan sinyal algoritma yang kuat.</li>
-    <li><strong>Tambah favorit tiktok</strong> untuk meningkatkan nilai video Anda.</li>
-    <li><strong>Jasa fyp tiktok</strong> melalui optimasi metrik favorite.</li>
-    <li><strong>Harga jasa favorite tiktok</strong> yang murah dan kompetitif.</li>
-    <li>Layanan <strong>jasa buzzer tiktok</strong> khusus untuk campaign favorite.</li>
-    <li><strong>Favorite tiktok real human</strong>, bukan dari akun bot.</li>
-    <li>Cara efektif <strong>agar video direkomendasikan tiktok</strong>.</li>
-    <li><strong>Jual favorite tiktok</strong> bergaransi dan aman.</li>
-    <li>Proses <strong>aman tanpa password</strong>, cukup kirim link video.</li>
-    <li>Jawaban untuk pertanyaan <strong>apakah favorite tiktok mempengaruhi fyp</strong>.</li>
-    <li>Pahami <strong>fungsi favorite di tiktok</strong> untuk pertumbuhan akun.</li>
-    <li>Favorite berasal dari <strong>akun aktif Indonesia</strong> yang berinteraksi.</li>
-    <li><strong>Order favorite tiktok</strong> sangat mudah, proses dibantu hingga selesai.</li>
-    <li>Layanan <strong>favorite tiktok permanen</strong> untuk menjaga nilai video Anda.</li>
-    <li>Sangat efektif untuk <strong>promosi produk</strong> dan konten <strong>jualan</strong>.</li>
-    <li>Hasil masuk <strong>instan</strong> dan natural setelah pesanan dikonfirmasi.</li>
-    <li><strong>Penyedia jasa tiktok amanah</strong> dengan ribuan testimoni positif.</li>
-</ul>
+        <ul>
+            <li><strong>Jasa favorite tiktok</strong> terpercaya dari akun real human.</li>
+            <li><strong>Beli favorite tiktok</strong> untuk membuat konten terlihat berkualitas.</li>
+            <li>Layanan <strong>jasa save tiktok</strong> dengan proses cepat dan aman.</li>
+            <li>Solusi <strong>viral tiktok</strong> dengan sinyal algoritma yang kuat.</li>
+            <li><strong>Tambah favorit tiktok</strong> untuk meningkatkan nilai video Anda.</li>
+            <li><strong>Jasa fyp tiktok</strong> melalui optimasi metrik favorite.</li>
+            <li><strong>Harga jasa favorite tiktok</strong> yang murah dan kompetitif.</li>
+            <li>Layanan <strong>jasa buzzer tiktok</strong> khusus untuk campaign favorite.</li>
+            <li><strong>Favorite tiktok real human</strong>, bukan dari akun bot.</li>
+            <li>Cara efektif <strong>agar video direkomendasikan tiktok</strong>.</li>
+            <li><strong>Jual favorite tiktok</strong> bergaransi dan aman.</li>
+            <li>Proses <strong>aman tanpa password</strong>, cukup kirim link video.</li>
+            <li>Jawaban untuk pertanyaan <strong>apakah favorite tiktok mempengaruhi fyp</strong>.</li>
+            <li>Pahami <strong>fungsi favorite di tiktok</strong> untuk pertumbuhan akun.</li>
+            <li>Favorite berasal dari <strong>akun aktif Indonesia</strong> yang berinteraksi.</li>
+            <li><strong>Order favorite tiktok</strong> sangat mudah, proses dibantu hingga selesai.</li>
+            <li>Layanan <strong>favorite tiktok permanen</strong> untuk menjaga nilai video Anda.</li>
+            <li>Sangat efektif untuk <strong>promosi produk</strong> dan konten <strong>jualan</strong>.</li>
+            <li>Hasil masuk <strong>instan</strong> dan natural setelah pesanan dikonfirmasi.</li>
+            <li><strong>Penyedia jasa tiktok amanah</strong> dengan ribuan testimoni positif.</li>
+        </ul>
     </div>
 </div>
 
 <style>
-    /* Struktur CSS Anda tidak diubah */
+    .toggle-container {
+        margin-top: 20px; 
+    }
+    .toggle-btn {
+        cursor: pointer;
+        color: #007bff;
+        text-decoration: underline;
+        display: inline-block;
+        font-weight: bold;
+    }
+    .hidden-content {
+        /* KUNCI #1: Konten disembunyikan di awal */
+        display: none; 
+        margin-top: 15px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        color: #111; /* Memastikan teks berwarna hitam */
+    }
+    .hidden-content ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .hidden-content li {
+        margin-bottom: 8px;
+    }
 </style>
 
+<script>
+    function toggleSeoContent() {
+        var content = document.getElementById("hiddenSeoContent");
+        var button = document.querySelector(".toggle-btn");
+        
+        // Cek apakah konten sedang tersembunyi atau tidak
+        if (content.style.display === "none" || content.style.display === "") {
+            content.style.display = "block";
+            button.textContent = "📌 Tutup Selengkapnya";
+        } else {
+            content.style.display = "none";
+            button.textContent = "📌 Baca Selengkapnya";
+        }
+    }
+</script>
 <script>
     // Struktur JS Anda tidak diubah
 </script>

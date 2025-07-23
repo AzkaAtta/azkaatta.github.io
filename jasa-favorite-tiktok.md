@@ -119,7 +119,7 @@ permalink: /layanan/jasa-favorite-tiktok/
 </script>
 
 <h1 style="text-align: center; color: #fff; text-shadow: 0 0 4px rgba(0,0,0,0.7); padding: 20px 15px;">
-    Jasa Favorite TikTok: Sinyal Konten Berkualitas untuk Algoritma @Azka201218
+    Jasa Favorite TikTok: Sinyal Konten Berkualitas untuk Algoritma
 </h1>
 
 <div class="jasa-top-komen-tiktok-container">

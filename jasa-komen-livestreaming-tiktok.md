@@ -236,14 +236,15 @@ permalink: /layanan/jasa-komen-livestreaming-tiktok/
         font-weight: bold;
     }
     .hidden-content {
-        /* Ini adalah kunci utamanya, konten disembunyikan secara default */
-        display: none; 
-        margin-top: 15px;
-        padding: 15px;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        background-color: #f9f9f9;
-    }
+    /* Ini adalah kunci utamanya, konten disembunyikan secara default */
+    display: none; 
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #111111; /* <--- UBAH ATAU TAMBAHKAN BARIS INI */
+}
     .hidden-content ul {
         margin: 0;
         padding-left: 20px;

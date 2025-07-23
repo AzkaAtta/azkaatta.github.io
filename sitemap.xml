@@ -137,6 +137,14 @@
   <priority>0.8</priority>  
 </url>
 
+  <!-- Jasa View Instagram -->
+<url>  
+  <loc>https://auradigital.id/layanan/jasa-view-instagram/</loc>  
+  <lastmod>2025-07-23</lastmod>  
+  <changefreq>weekly</changefreq>  
+  <priority>0.8</priority>  
+</url>
+
     <!-- Halaman About -->
   <url>
     <loc>https://auradigital.id/about/</loc>

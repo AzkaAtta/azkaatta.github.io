@@ -219,7 +219,7 @@ permalink: /layanan/jasa-komen-ke-komentar-tiktok/
   .toggle-btn { cursor: pointer; color: #007bff; text-decoration: underline; margin-top: 10px; display: inline-block; }
 </style>
 
-<div class="toggle-btn" onclick="toggleHidden()">📌 Baca Selengkapnya (Kata Kunci SEO)</div>
+<div class="toggle-btn" onclick="toggleHidden()">📌 Baca Selengkapnya</div>
 <div id="hiddenContent" class="hidden-content">
   <li><strong>Jasa balas komentar TikTok</strong> terpercaya untuk membuat diskusi ramai.</li>
   <li><strong>Beli reply comment</strong> dari akun real human Indonesia.</li>

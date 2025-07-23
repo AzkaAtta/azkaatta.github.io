@@ -231,20 +231,27 @@ permalink: /layanan/jasa-favorite-tiktok/
     }
     .toggle-btn {
         cursor: pointer;
-        color: #007bff;
+        /* Warna tombol diubah agar kontras dengan background gelap */
+        color: #67e8f9; /* Biru Cyan Terang */
         text-decoration: underline;
         display: inline-block;
         font-weight: bold;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.5);
     }
     .hidden-content {
         /* KUNCI #1: Konten disembunyikan di awal */
         display: none; 
+        
+        /* KUNCI #2: Style diubah menjadi transparan & teks putih */
+        background: rgba(0, 0, 0, 0.25); /* Background semi-transparan gelap */
+        backdrop-filter: blur(8px);
+        color: #ffffff; /* Warna teks utama menjadi putih */
+        border: 1px solid rgba(255, 255, 255, 0.15); /* Border efek kaca */
+        
         margin-top: 15px;
-        padding: 15px;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        background-color: #f9f9f9;
-        color: #111; /* Memastikan teks berwarna hitam */
+        padding: 20px;
+        border-radius: 12px;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.5); /* Bayangan agar teks mudah dibaca */
     }
     .hidden-content ul {
         margin: 0;
@@ -253,7 +260,10 @@ permalink: /layanan/jasa-favorite-tiktok/
     .hidden-content li {
         margin-bottom: 8px;
     }
-</style>
+    .hidden-content strong {
+        color: #93c5fd; /* Warna biru muda untuk keyword */
+    }
+</style>>
 
 <script>
     function toggleSeoContent() {

@@ -113,6 +113,14 @@
   <priority>0.8</priority>
 </url>
 
+  <!-- Jasa FYP TikTok -->
+<url>  
+  <loc>https://auradigital.id/layanan/jasa-fyp-tiktok/</loc>  
+  <lastmod>2025-07-23</lastmod>  
+  <changefreq>weekly</changefreq>  
+  <priority>0.8</priority>  
+</url>
+
     <!-- Halaman About -->
   <url>
     <loc>https://auradigital.id/about/</loc>

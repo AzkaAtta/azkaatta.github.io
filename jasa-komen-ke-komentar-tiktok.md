@@ -56,7 +56,7 @@ permalink: /layanan/jasa-komen-ke-komentar-tiktok/
       "offers": {
         "@type": "Offer",
         "priceCurrency": "IDR",
-        "price": "30000",
+        "price": "3000",
         "availability": "https://schema.org/InStock",
         "url": "https://auradigital.id/layanan/jasa-komen-ke-komentar-tiktok/"
       }

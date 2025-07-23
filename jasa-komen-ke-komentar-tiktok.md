@@ -245,7 +245,7 @@ permalink: /layanan/jasa-komen-ke-komentar-tiktok/
       button.textContent = "📌 Tutup Selengkapnya";
     } else {
       content.style.display = "none";
-      button.textContent = "📌 Baca Selengkapnya (Kata Kunci SEO)";
+      button.textContent = "📌 Baca Selengkapnya";
     }
   }
 </script>

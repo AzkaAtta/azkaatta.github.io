@@ -197,7 +197,7 @@ permalink: /layanan/jasa-share-tiktok/
 
 <div class="toggle-container">
 
-    <div class="toggle-btn" onclick="toggleSeoContent()">📌 Baca Selengkapnya (Kata Kunci SEO)</div>
+    <div class="toggle-btn" onclick="toggleSeoContent()">📌 Baca Selengkapnya</div>
     
     <div id="hiddenSeoContent" class="hidden-content">
         <ul>
@@ -272,6 +272,6 @@ permalink: /layanan/jasa-share-tiktok/
     // Baris ini memastikan konten pasti tersembunyi saat halaman pertama kali dimuat
     document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("hiddenSeoContent").style.display = "none";
-        document.querySelector(".toggle-btn").textContent = "📌 Baca Selengkapnya (Kata Kunci SEO)";
+        document.querySelector(".toggle-btn").textContent = "📌 Baca Selengkapnya";
     });
 </script>

@@ -196,7 +196,9 @@ permalink: /layanan/jasa-fyp-tiktok/
 </style>
 
 <div class="toggle-container">
-    <div class="toggle-btn" onclick="toggleSeoContent()">📌 Baca Selengkapnya (Kata Kunci SEO)</div>
+
+    <div class="toggle-btn" onclick="toggleSeoContent()">📌 Baca Selengkapnya</div>
+    
     <div id="hiddenSeoContent" class="hidden-content">
    <ul>
     <li><strong>Jasa fyp tiktok</strong> terpercaya dan bergaransi.</li>

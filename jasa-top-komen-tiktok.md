@@ -102,14 +102,13 @@ permalink: /layanan/jasa-top-komen-tiktok/
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Proses tambah like komentar TikTok cepat, biasanya 5–30 menit. Komentar langsung naik, aman, real, tanpa login, dan cocok untuk masuk FYP"
-         
+          }
         }
       ]
     }
   ]
 }
 </script>
-
 
 <h1 style="text-align: center; color: #fff; text-shadow: 0 0 4px rgba(0,0,0,0.7); padding: 20px 15px;">
     Jasa Top Komentar TikTok Murah, Aman, dan Real untuk Masuk FYP

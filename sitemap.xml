@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <!-- Homepage -->
   <url>
@@ -34,11 +38,203 @@
   </url>
 
   <!-- Jasa Komentar TikTok -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-komentar-tiktok/</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa Followers TikTok -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-followers-tiktok/</loc>
+    <lastmod>2025-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa Livestreaming TikTok -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-livestreaming-tiktok/</loc>
+    <lastmod>2025-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa Top Komentar TikTok -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-top-komen-tiktok/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa Komen ke Komentar TikTok -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-komen-ke-komentar-tiktok/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa Komen Livestreaming TikTok -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-komen-livestreaming-tiktok/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa Share TikTok -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-share-tiktok/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa Favorite TikTok -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-favorite-tiktok/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa Kelola Akun TikTok -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-kelola-akun-tiktok/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa FYP TikTok -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-fyp-tiktok/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa KOL TikTok -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-KOL-tiktok/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa Like Instagram -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-like-instagram/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa View Instagram -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-view-instagram/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa Komentar Instagram -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-komentar-instagram/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jasa Followers Instagram -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-follower-instagram/</loc>
+    <lastmod>2025-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Jasa Livestreaming Instagram -->
+  <url>
+    <loc>https://auradigital.id/layanan/jasa-livestreaming-instagram/</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Jasa Top Komentar Instagram -->
 <url>
-  <loc>https://auradigital.id/layanan/jasa-komentar-tiktok/</loc>
+  <loc>https://auradigital.id/layanan/jasa-top-komentar-instagram/</loc>
   <lastmod>2025-07-21</lastmod>
   <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
+  <priority>0.9</priority>
+</url>
+
+  <!-- Jasa Komen ke Komentar Instagram -->
+<url>
+  <loc>https://auradigital.id/layanan/jasa-komen-ke-komentar-instagram/</loc>
+  <lastmod>2025-07-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+  <!-- Jasa Komen Livestreaming Instagram -->
+<url>
+  <loc>https://auradigital.id/layanan/jasa-komen-livestreaming-instagram/</loc>
+  <lastmod>2025-07-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+  <!-- Jasa Share Instagram -->
+<url>
+  <loc>https://auradigital.id/layanan/jasa-share-instagram/</loc>
+  <lastmod>2025-07-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+  <!-- Jasa Favorite Instagram -->
+<url>
+  <loc>https://auradigital.id/layanan/jasa-favorite-instagram/</loc>
+  <lastmod>2025-07-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+  <!-- Jasa Kelola Akun Instagram -->
+<url>
+  <loc>https://auradigital.id/layanan/jasa-kelola-akun-instagram/</loc>
+  <lastmod>2025-07-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+  <!-- Jasa FYP Instagram -->
+<url>
+  <loc>https://auradigital.id/layanan/jasa-fyp-instagram/</loc>
+  <lastmod>2025-07-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+  <!-- Jasa KOL Instagram -->
+<url>
+  <loc>https://auradigital.id/layanan/jasa-KOL-instagram/</loc>
+  <lastmod>2025-07-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+  <!-- Jasa Post to Story Instagram -->
+<url>
+  <loc>https://auradigital.id/layanan/jasa-post-to-story-instagram/</loc>
+  <lastmod>2025-07-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
 </url>
 
   <!-- Halaman Kontak -->
@@ -49,136 +245,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Jasa Followers TikTok -->
-<url>
-  <loc>https://auradigital.id/layanan/jasa-followers-tiktok/</loc>
-  <lastmod>2025-07-22</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-  !-- Jasa Livestreaming TikTok -->
-<url>
-  <loc>https://auradigital.id/layanan/jasa-livestreaming-tiktok/</loc>
-  <lastmod>2025-07-22</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-  <!-- Jasa Top Komentar TikTok -->
-<url>
-  <loc>https://auradigital.id/layanan/jasa-top-komen-tiktok/</loc>
-  <lastmod>2025-07-23</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-  <!-- Jasa Komen ke Komentar TikTok -->
-<url>  
-  <loc>https://auradigital.id/layanan/jasa-komen-ke-komentar-tiktok/</loc>  
-  <lastmod>2025-07-23</lastmod>  
-  <changefreq>weekly</changefreq>  
-  <priority>0.8</priority>  
-</url>
-
-  <!-- Jasa Komen Livestreaming TikTok -->
-<url>  
-  <loc>https://auradigital.id/layanan/jasa-komen-livestreaming-tiktok/</loc>  
-  <lastmod>2025-07-23</lastmod>  
-  <changefreq>weekly</changefreq>  
-  <priority>0.8</priority>  
-</url>
-
-  <!-- Jasa Share TikTok -->
-<url>  
-  <loc>https://auradigital.id/layanan/jasa-share-tiktok/</loc>  
-  <lastmod>2025-07-23</lastmod>  
-  <changefreq>weekly</changefreq>  
-  <priority>0.8</priority>  
-</url>
-
-  <!-- Jasa Favorite TikTok -->
-<url>  
-  <loc>https://auradigital.id/layanan/jasa-favorite-tiktok/</loc>  
-  <lastmod>2025-07-23</lastmod>  
-  <changefreq>weekly</changefreq>  
-  <priority>0.8</priority>  
-</url>
-
-  <!-- Jasa Kelola akun Tiktok -->
- <url>
-  <loc>https://auradigital.id/layanan/jasa-kelola-akun-tiktok/</loc>
-  <lastmod>2025-07-23</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-  <!-- Jasa FYP TikTok -->
-<url>  
-  <loc>https://auradigital.id/layanan/jasa-fyp-tiktok/</loc>  
-  <lastmod>2025-07-23</lastmod>  
-  <changefreq>weekly</changefreq>  
-  <priority>0.8</priority>  
-</url>
-
-  <!-- Jasa KOL/Influencer TikTok -->
-<url>  
-  <loc>https://auradigital.id/layanan/jasa-KOL-tiktok/</loc>  
-  <lastmod>2025-07-23</lastmod>  
-  <changefreq>weekly</changefreq>  
-  <priority>0.8</priority>  
-</url>
-
-  <!-- Jasa Like Instagram -->
-<url>  
-  <loc>https://auradigital.id/layanan/jasa-like-instagram/</loc>  
-  <lastmod>2025-07-23</lastmod>  
-  <changefreq>weekly</changefreq>  
-  <priority>0.8</priority>  
-</url>
-
-  <!-- Jasa View Instagram -->
-<url>  
-  <loc>https://auradigital.id/layanan/jasa-view-instagram/</loc>  
-  <lastmod>2025-07-23</lastmod>  
-  <changefreq>weekly</changefreq>  
-  <priority>0.8</priority>  
-</url>
-
-  <!-- Jasa Komentar Instagram -->
-<url>  
-  <loc>https://auradigital.id/layanan/jasa-komentar-instagram/</loc>  
-  <lastmod>2025-07-23</lastmod>  
-  <changefreq>weekly</changefreq>  
-  <priority>0.8</priority>  
-</url>
-
-  <!-- Jasa Follower Instagram -->
-<url>
-  <loc>https://auradigital.id/layanan/jasa-follower-instagram/</loc>
-  <lastmod>2025-07-24</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
-</url>
-
-  <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
-  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-  <url>
-    <loc>https://auradigital.id/layanan/jasa-livestreaming-instagram/</loc>
-    <lastmod>2025-07-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-</urlset>
-
-
-    <!-- Halaman About -->
+  <!-- Halaman About -->
   <url>
     <loc>https://auradigital.id/about/</loc>
     <lastmod>2025-07-21</lastmod>
@@ -194,7 +261,4 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Tambahkan halaman posting blog atau layanan baru jika ada -->
-
 </urlset>
-

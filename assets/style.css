@@ -646,3 +646,32 @@ main h1 {
   color: #ffd700 !important;
   text-decoration: none !important;
 }
+
+    /* === Logo Bulat Kecil di Pojok Kiri Atas === */
+.logo-wrapper {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 9999;
+}
+
+.logo-wrapper img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.logo-wrapper img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsif di HP */
+@media (max-width: 768px) {
+  .logo-wrapper img {
+    width: 40px;
+    height: 40px;
+  }
+}

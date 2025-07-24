@@ -8,84 +8,75 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     
     {% seo %}
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://auradigital.id/#organization",
-      "name": "Aura Digital",
-      "url": "https://auradigital.id/",
+      "@id": "{{ site.url }}/#organization",
+      "name": "{{ site.organization.name }}",
+      "url": "{{ site.organization.url }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://auradigital.id/image/logo.auradigital.webp",
+        "url": "{{ site.url }}/image/logo.auradigital.webp",
         "width": 240,
         "height": 240
       },
-      "sameAs": [
-        "https://instagram.com/jasa.buzzerdigital.id",
-        "https://tiktok.com/@auradigital.id",
-        "https://x.com/auradigitalid"
-      ]
+      "sameAs": {{ site.organization.sameAs | jsonify }}
     },
     {
       "@type": "WebSite",
-      "@id": "https://auradigital.id/#website",
-      "url": "https://auradigital.id/",
-      "name": "Aura Digital",
-      "description": "Jasa media sosial terpercaya untuk menaikkan interaksi, popularitas, dan branding. Buzzer, komentar, topik trending, FYP TikTok, dan lainnya.",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}/",
+      "name": "{{ site.title }}",
+      "description": "{{ site.description }}",
       "publisher": {
-        "@id": "https://auradigital.id/#organization"
-      },
-      "inLanguage": "id-ID"
+        "@id": "{{ site.url }}/#organization"
+      }
     },
     {
       "@type": "WebPage",
-      "@id": "https://auradigital.id/#webpage",
-      "url": "https://auradigital.id/",
-      "name": "Jasa Sosial Media Marketing Terpercaya - Aura Digital",
+      "@id": "{{ page.url | absolute_url }}#webpage",
+      "url": "{{ page.url | absolute_url }}",
+      "name": "{{ page.title | escape }}",
       "isPartOf": {
-        "@id": "https://auradigital.id/#website"
+        "@id": "{{ site.url }}/#website"
       },
       "about": {
-        "@id": "https://auradigital.id/#organization"
+        "@id": "{{ site.url }}/#organization"
       },
-      "description": "Partner strategis untuk pertumbuhan brand Anda melalui media sosial. Layanan FYP TikTok, top komentar, viewers, dan lainnya.",
-      "breadcrumb": {
-        "@id": "https://auradigital.id/#breadcrumb"
-      },
-      "inLanguage": "id-ID"
+      "description": "{{ page.description | default: site.description }}"
+    },
+    {
+      "@type": "WPHeader",
+      "@id": "{{ site.url }}/#header"
+    },
+    {
+      "@type": "WPFooter",
+      "@id": "{{ site.url }}/#footer"
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://auradigital.id/#breadcrumb",
+      "@id": "{{ page.url | absolute_url }}#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Beranda",
-          "item": "https://auradigital.id/"
+          "name": "Home",
+          "item": "{{ site.url }}/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ page.title | escape }}",
+          "item": "{{ page.url | absolute_url }}"
         }
       ]
-    },
-    {
-      "@type": "WPHeader",
-      "about": {
-        "@id": "https://auradigital.id/#organization"
-      },
-      "url": "https://auradigital.id/"
-    },
-    {
-      "@type": "WPFooter",
-      "about": {
-        "@id": "https://auradigital.id/#organization"
-      },
-      "url": "https://auradigital.id/"
     }
   ]
 }
-    </script>
+</script>
 </head>
 <body>
 

@@ -14,65 +14,29 @@
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "{{ site.url }}/#organization",
-      "name": "{{ site.organization.name }}",
-      "url": "{{ site.organization.url }}",
+      "@id": "https://auradigital.id/#organization",
+      "name": "Aura Digital",
+      "url": "https://auradigital.id/",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ site.url }}/image/logo.auradigital.webp",
+        "url": "https://auradigital.id/image/logo.auradigital.webp",
         "width": 240,
         "height": 240
       },
-      "sameAs": {{ site.organization.sameAs | jsonify }}
+      "sameAs": [
+        "https://instagram.com/jasa.buzzerdigital.id",
+        "https://tiktok.com/@auradigital.id",
+        "https://x.com/auradigitalid"
+      ]
     },
     {
       "@type": "WebSite",
-      "@id": "{{ site.url }}/#website",
-      "url": "{{ site.url }}/",
-      "name": "{{ site.title }}",
-      "description": "{{ site.description }}",
+      "@id": "https://auradigital.id/#website",
+      "url": "https://auradigital.id/",
+      "name": "Aura Digital",
       "publisher": {
-        "@id": "{{ site.url }}/#organization"
+        "@id": "https://auradigital.id/#organization"
       }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "{{ page.url | absolute_url }}#webpage",
-      "url": "{{ page.url | absolute_url }}",
-      "name": "{{ page.title | escape }}",
-      "isPartOf": {
-        "@id": "{{ site.url }}/#website"
-      },
-      "about": {
-        "@id": "{{ site.url }}/#organization"
-      },
-      "description": "{{ page.description | default: site.description }}"
-    },
-    {
-      "@type": "WPHeader",
-      "@id": "{{ site.url }}/#header"
-    },
-    {
-      "@type": "WPFooter",
-      "@id": "{{ site.url }}/#footer"
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "{{ page.url | absolute_url }}#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "{{ site.url }}/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "{{ page.title | escape }}",
-          "item": "{{ page.url | absolute_url }}"
-        }
-      ]
     }
   ]
 }

@@ -21,8 +21,8 @@ title: Daftar
 </form>
 
 <script>
-const apiUrl = "http://localhost:3000"; // ubah jika beda server
-
+const apiUrl = "https://1bc3851346ea.ngrok-free.app";
+  
 function sendOtp() {
   const phone = document.getElementById("phone").value;
   fetch(`${apiUrl}/api/send-otp`, {

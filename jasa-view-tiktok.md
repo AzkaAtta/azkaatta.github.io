@@ -112,9 +112,9 @@ permalink: /layanan/jasa-view-tiktok/
 </script>
 
 
-<h1 style="text-align: center; color: #fff; text-shadow: 0 0 4px rgba(0,0,0,0.7); padding: 20px 15px;">
+<h2 style="text-align: center; color: #fff; text-shadow: 0 0 4px rgba(0,0,0,0.7); padding: 20px 15px;">
     Jasa view TikTok murah, aman, cepat, dan real. Tambah view asli dari akun aktif untuk konten viral. Solusi beli view TikTok terpercaya!
-</h1>
+</h2>
 
 <div class="jasa-komentar-tiktok-container">
     <div class="service-card" id="jasa-view-tiktok-card" onclick="toggleService(this)">

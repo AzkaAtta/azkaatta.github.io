@@ -196,7 +196,9 @@ permalink: /layanan/jasa-komen-ke-komentar-instagram/
 </style>
 
 <div class="toggle-container">
-    <div class="toggle-btn" onclick="toggleSeoContent()">📌 Baca Selengkapnya (Kata Kunci SEO)</div>
+
+    <div class="toggle-btn" onclick="toggleSeoContent()">📌 Baca Selengkapnya</div>
+    
     <div id="hiddenSeoContent" class="hidden-content">
         <ul>
     <li><strong>Jasa komen ke komentar instagram</strong> terpercaya.</li>
@@ -234,9 +236,60 @@ permalink: /layanan/jasa-komen-ke-komentar-instagram/
 </div>
 
 <style>
-    /* Struktur CSS Anda tidak diubah */
-</style>
+    .toggle-container {
+        margin-top: 20px; 
+    }
+    .toggle-btn {
+        cursor: pointer;
+        /* Warna tombol diubah agar kontras dengan background gelap */
+        color: #67e8f9; /* Biru Cyan Terang */
+        text-decoration: underline;
+        display: inline-block;
+        font-weight: bold;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    }
+    .hidden-content {
+        /* KUNCI #1: Konten disembunyikan di awal */
+        display: none; 
+        
+        /* KUNCI #2: Style diubah menjadi transparan & teks putih */
+        background: rgba(0, 0, 0, 0.25); /* Background semi-transparan gelap */
+        backdrop-filter: blur(8px);
+        color: #ffffff; /* Warna teks utama menjadi putih */
+        border: 1px solid rgba(255, 255, 255, 0.15); /* Border efek kaca */
+        
+        margin-top: 15px;
+        padding: 20px;
+        border-radius: 12px;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.5); /* Bayangan agar teks mudah dibaca */
+    }
+    .hidden-content ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .hidden-content li {
+        margin-bottom: 8px;
+    }
+    .hidden-content strong {
+        color: #93c5fd; /* Warna biru muda untuk keyword */
+    }
+</style>>
 
+<script>
+    function toggleSeoContent() {
+        var content = document.getElementById("hiddenSeoContent");
+        var button = document.querySelector(".toggle-btn");
+        
+        // Cek apakah konten sedang tersembunyi atau tidak
+        if (content.style.display === "none" || content.style.display === "") {
+            content.style.display = "block";
+            button.textContent = "📌 Tutup Selengkapnya";
+        } else {
+            content.style.display = "none";
+            button.textContent = "📌 Baca Selengkapnya";
+        }
+    }
+</script>
 <script>
     // Struktur JS Anda tidak diubah
 </script>

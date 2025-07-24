@@ -56,7 +56,7 @@ permalink: /layanan/jasa-top-komentar-instagram/
       "offers": {
         "@type": "Offer",
         "priceCurrency": "IDR",
-        "price": "5000",
+        "price": "2000",
         "availability": "https://schema.org/InStock",
         "url": "https://auradigital.id/layanan/jasa-top-komentar-instagram/"
       }

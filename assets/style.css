@@ -656,8 +656,8 @@ main h1 {
 }
 
 .logo-wrapper img {
-  width: 48px;
-  height: 48px;
+  width: 36px;              /* Ukuran logo diperkecil */
+  height: 36px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
@@ -668,10 +668,10 @@ main h1 {
   transform: scale(1.05);
 }
 
-/* Responsif di HP */
-@media (max-width: 768px) {
+/* Responsif HP (kalau perlu lebih kecil lagi di HP kecil) */
+@media (max-width: 480px) {
   .logo-wrapper img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
 }

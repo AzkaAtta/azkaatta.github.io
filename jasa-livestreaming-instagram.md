@@ -56,7 +56,7 @@ permalink: /layanan/jasa-livestreaming-instagram/
       "offers": {
         "@type": "Offer",
         "priceCurrency": "IDR",
-        "price": "10000",
+        "price": "20000",
         "availability": "https://schema.org/InStock",
         "url": "https://auradigital.id/layanan/jasa-livestreaming-instagram/"
       }

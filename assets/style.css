@@ -647,31 +647,3 @@ main h1 {
   text-decoration: none !important;
 }
 
-    /* === Logo Bulat Kecil di Pojok Kiri Atas === */
-.logo-wrapper {
-  position: fixed;
-  top: 12px;
-  left: 12px;
-  z-index: 9999;
-}
-
-.logo-wrapper img {
-  width: 36px;              /* Ukuran logo diperkecil */
-  height: 36px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s ease;
-}
-
-.logo-wrapper img:hover {
-  transform: scale(1.05);
-}
-
-/* Responsif HP (kalau perlu lebih kecil lagi di HP kecil) */
-@media (max-width: 480px) {
-  .logo-wrapper img {
-    width: 30px;
-    height: 30px;
-  }
-}

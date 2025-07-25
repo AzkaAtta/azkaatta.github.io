@@ -111,9 +111,9 @@ permalink: /layanan/jasa-followers-tiktok/
 </script>
 
 
-<h1 style="text-align: center; color: #fff; text-shadow: 0 0 4px rgba(0,0,0,0.7); padding: 20px 15px;">
+<h2 style="text-align: center; color: #fff; text-shadow: 0 0 4px rgba(0,0,0,0.7); padding: 20px 15px;">
     Beli Followers TikTok Indonesia Aman dan Terpercaya
-</h1>
+</h2>
 
 <div class="jasa-followers-tiktok-container">
     <div class="service-card" id="jasa-followers-tiktok-card" onclick="toggleService(this)">

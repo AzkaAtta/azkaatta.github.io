@@ -45,23 +45,6 @@ permalink: /layanan/jasa-follower-instagram/
       "description": "Jasa tambah follower Instagram dari akun real human Indonesia untuk meningkatkan kredibilitas, social proof, dan membuka peluang endorse. Layanan terpercaya, aman, dan bergaransi."
     },
     {
-      "@type": "Product",
-      "name": "Paket Follower Instagram (Indonesia & Bule)",
-      "image": "https://raw.githubusercontent.com/AzkaAtta/azkaatta.github.io/main/image/jasa-follower-instagram.webp",
-      "description": "Beli paket follower Instagram real dan aktif. Tersedia follower Indonesia dan follower Bule (internasional). Dikerjakan oleh tim profesional untuk meningkatkan kredibilitas akun secara aman dan cepat.",
-      "brand": {
-        "@type": "Brand",
-        "name": "auradigital.id"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "IDR",
-        "price": "2000",
-        "availability": "https://schema.org/InStock",
-        "url": "https://auradigital.id/layanan/jasa-follower-instagram/"
-      }
-    },
-    {
       "@type": "BreadcrumbList",
       "@id": "https://auradigital.id/layanan/jasa-follower-instagram/#breadcrumb",
       "itemListElement": [

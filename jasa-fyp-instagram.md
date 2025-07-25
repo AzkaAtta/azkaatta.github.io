@@ -135,20 +135,7 @@ robots: index, follow
     }
   ]
 }
-</script>        "@id": "https://auradigital.id/layanan/jasa-fyp-instagram/#breadcrumb"
-      },
-      "description": "Butuh jasa FYP Instagram? Kami menawarkan paket engagement lengkap untuk mengirim sinyal kuat ke algoritma, membuat video Anda viral, dan menjangkau jutaan penonton di Explore Page."
-    },
-    {
-      "@type": "Service",
-      "name": "Jasa FYP & Viral Instagram",
-      "serviceType": "Social Media Marketing",
-      "provider": {
-        "@type": "WebSite",
-        "name": "auradigital.id",
-        "url": "https://auradigital.id/"
-      },
-
+</script>      
 
 <h2 style="text-align: center; color: #fff; text-shadow: 0 0 4px rgba(0,0,0,0.7); padding: 20px 15px;">
     Jasa FYP Instagram: Solusi Cepat Masuk Explore Page & Viral

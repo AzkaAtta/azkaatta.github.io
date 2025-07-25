@@ -40,7 +40,8 @@ robots: index, follow
         "name": "auradigital.id",
         "url": "https://auradigital.id/"
       },
-      "areaServed": {
+      {
+      "areaServed":
         "@type": "Country",
         "name": "Indonesia"
       },

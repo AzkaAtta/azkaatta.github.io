@@ -110,9 +110,9 @@ permalink: /layanan/jasa-top-komen-tiktok/
 }
 </script>
 
-<h1 style="text-align: center; color: #fff; text-shadow: 0 0 4px rgba(0,0,0,0.7); padding: 20px 15px;">
+<h2 style="text-align: center; color: #fff; text-shadow: 0 0 4px rgba(0,0,0,0.7); padding: 20px 15px;">
     Jasa Top Komentar TikTok Murah, Aman, dan Real untuk Masuk FYP
-</h1>
+</h2>
 
 <div class="jasa-top-komen-tiktok-container">
     <div class="service-card" id="jasa-top-komen-tiktok-card" onclick="toggleService(this)">

@@ -124,7 +124,7 @@ permalink: /layanan/jasa-share-instagram/
 
 <div class="jasa-top-komen-tiktok-container">
     <div class="service-card" id="jasa-share-instagram-card" onclick="toggleService(this)">
-        <h3>Jasa Post to Story IG Terpercaya</h3>
+        <h3>Jasa Share IG Terpercaya</h3>
         <img src="https://raw.githubusercontent.com/AzkaAtta/azkaatta.github.io/main/image/jasa-share-instagram.webp" alt="Jasa Share Instagram untuk Viral" style="max-width:100%; height:auto;" loading="lazy">
         <a href="https://wa.me/62895402343693?text=Halo,%20saya%20tertarik%20dengan%20Jasa%20Share%20Instagram.%20Bisa%20info%20lebih%20lanjut?" target="_blank" class="whatsapp-button" style="display: block; width: fit-content; margin: 20px auto; padding: 15px 30px; background-color: #25D366; color: white; text-align: center; text-decoration: none; border-radius: 50px; font-size: 1.2em; font-weight: bold; transition: background-color 0.3s ease;">
             Pesan Sekarang

@@ -48,7 +48,7 @@ robots: index, follow
     {
       "@type": "Product",
       "name": "Paket Post to Story Instagram",
-      "image": "https://raw.githubusercontent.com/AzkaAtta/azkaatta.github.io/main/image/jasa-post-to-story-instagram.webp",
+      "image": "https://raw.githubusercontent.com/AzkaAtta/azkaatta.github.io/main/image/jasa-ready-post-to-story-instagram.webp",
       "description": "Beli paket repost ke Story Instagram. Dikerjakan oleh tim buzzer profesional untuk menyebarkan postingan Anda, meningkatkan view, dan memperbesar peluang masuk Explore Page.",
       "brand": {
         "@type": "Brand",
@@ -126,7 +126,7 @@ robots: index, follow
 <div class="jasa-top-komen-tiktok-container">
     <div class="service-card" id="jasa-post-to-story-instagram-card" onclick="toggleService(this)">
         <h3>Jasa Repost & Share Story IG Cepat</h3>
-        <img src="https://raw.githubusercontent.com/AzkaAtta/azkaatta.github.io/main/image/jasa-post-to-story-instagram.webp" alt="Jasa Post to Story Instagram Cepat" style="max-width:100%; height:auto;" loading="lazy">
+        <img src="https://raw.githubusercontent.com/AzkaAtta/azkaatta.github.io/main/image/jasa-ready-post-to-story-instagram.webp" alt="Jasa Post to Story Instagram Cepat" style="max-width:100%; height:auto;" loading="lazy">
         <a href="https://wa.me/62895402343693?text=Halo,%20saya%20tertarik%20dengan%20Jasa%20Post%20to%20Story%20Instagram.%20Bisa%20info%20lebih%20lanjut?" target="_blank" class="whatsapp-button" style="display: block; width: fit-content; margin: 20px auto; padding: 15px 30px; background-color: #25D366; color: white; text-align: center; text-decoration: none; border-radius: 50px; font-size: 1.2em; font-weight: bold; transition: background-color 0.3s ease;">
             Pesan Sekarang
         </a>

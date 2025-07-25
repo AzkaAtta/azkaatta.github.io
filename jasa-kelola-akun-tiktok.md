@@ -118,9 +118,9 @@ permalink: /layanan/jasa-kelola-akun-tiktok/
 }
 </script>
 
-<h1 style="text-align: center; color: #fff; text-shadow: 0 0 4px rgba(0,0,0,0.7); padding: 20px 15px;">
+<h2 style="text-align: center; color: #fff; text-shadow: 0 0 4px rgba(0,0,0,0.7); padding: 20px 15px;">
     Jasa Kelola Akun TikTok Profesional: Fokus Pada Pertumbuhan Organik
-</h1>
+</h2>
 
 <div class="jasa-top-komen-tiktok-container">
     <div class="service-card" id="jasa-kelola-akun-tiktok-card" onclick="toggleService(this)">

@@ -7,6 +7,9 @@
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.description }}">
   <meta name="keywords" content="{{ page.keywords }}">
+  {% if page.robots %}
+<meta name="robots" content="{{ page.robots }}">
+{% endif %}
   <link rel="canonical" href="{{ site.url }}{{ page.permalink }}">
 
   <!-- Open Graph (OG) untuk Facebook dan sosial media lain -->

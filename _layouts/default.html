@@ -1,120 +1,21 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{{ page.title }}</title>
-  <meta name="description" content="{{ page.description }}">
-  <meta name="keywords" content="{{ page.keywords }}">
-  {% if page.robots %}
-<meta name="robots" content="{{ page.robots }}">
-{% endif %}
-  <link rel="canonical" href="{{ site.url }}{{ page.permalink }}">
+    {% seo %}
 
-  <!-- Open Graph (OG) untuk Facebook dan sosial media lain -->
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="{{ page.description }}">
-  <meta property="og:url" content="{{ site.url }}{{ page.permalink }}">
-  <meta property="og:image" content="{{ site.url }}{{ page.image }}">
-  <meta property="og:type" content="website">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{{ page.description }}">
-  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="/assets/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     
-    
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://auradigital.id/#organization",
-      "name": "Aura Digital",
-      "url": "https://auradigital.id/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://auradigital.id/image/logo.auradigital.webp",
-        "width": 240,
-        "height": 240
-      },
-      "sameAs": [
-        "https://instagram.com/jasa.buzzerdigital.id",
-        "https://tiktok.com/@auradigital.id",
-        "https://x.com/auradigitalid"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://auradigital.id/#website",
-      "url": "https://auradigital.id/",
-      "name": "Aura Digital",
-      "publisher": {
-        "@id": "https://auradigital.id/#organization"
-      },
-      "description": "Jasa media sosial terpercaya untuk menaikkan interaksi, popularitas, dan branding. Buzzer, komentar, topik trending, FYP TikTok, dan lainnya.",
-      "inLanguage": "id"
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://auradigital.id/#webpage",
-      "url": "https://auradigital.id/",
-      "name": "Aura Digital | Jasa Buzzer & Viral Sosial Media",
-      "isPartOf": {
-        "@id": "https://auradigital.id/#website"
-      },
-      "about": {
-        "@id": "https://auradigital.id/#organization"
-      },
-      "description": "Solusi layanan viral sosial media seperti komentar FYP TikTok, top komentar, trending topic, buzzer Instagram dan lebih banyak lagi.",
-      "breadcrumb": {
-        "@id": "https://auradigital.id/#breadcrumb"
-      },
-      "inLanguage": "id"
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://auradigital.id/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Beranda",
-          "item": "https://auradigital.id/"
-        }
-      ]
-    },
-    {
-      "@type": "WPHeader",
-      "@id": "https://auradigital.id/#header",
-      "url": "https://auradigital.id/#header",
-      "name": "Aura Digital Header",
-      "description": "Bagian atas situs web Aura Digital"
-    },
-    {
-      "@type": "WPFooter",
-      "@id": "https://auradigital.id/#footer",
-      "url": "https://auradigital.id/#footer",
-      "name": "Aura Digital Footer",
-      "description": "Bagian bawah situs web Aura Digital"
-    }
-  ]
-}
-</script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
 
     <header>
-    <h1>{{ page.title }}</h1>
-    {% include navigation.html %}
-    <hr>
+        <h1>{{ page.title }}</h1>
+        
+        {% include navigation.html %}
     </header>
 
     <main>
@@ -122,102 +23,111 @@
     </main>
     
     <footer>
-    <div class="social-icons">
-      <a href="https://instagram.com/USERNAME_ANDA" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-      <a href="https://twitter.com/USERNAME_ANDA" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-      <a href="https://t.me/USERNAME_ANDA" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
-      <a href="https://tiktok.com/@USERNAME_ANDA" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-      <a href="https://linkedin.com/in/USERNAME_ANDA" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-    </div>
-
-    <hr>
-    <p>Hak Cipta &copy; auradigital</p>
-</footer>
+        <div class="social-icons">
+          <a href="https://instagram.com/jasa.buzzerdigital.id" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://x.com/auradigitalid" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://tiktok.com/@auradigital.id" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="[LINK_TELEGRAM_ANDA]" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+        </div>
+        <p class="footer-copyright">
+            Hak Cipta &copy; {% now "Y" %} Aura Digital. All Rights Reserved.
+        </p>
+    </footer>
 
     <script>
-      // Fungsi yang lebih pintar untuk menginisialisasi slider
-      function initializeSlider(containerClass, slideClass, dotsClass, interval) {
-        const container = document.querySelector('.' + containerClass);
-        const dotsContainer = document.querySelector('.' + dotsClass);
+        // --- FUNGSI UNTUK SLIDER (UTAMA & TESTIMONI) ---
+        function initializeSlider(containerClass, slideClass, dotsClass, interval) {
+            const container = document.querySelector('.' + containerClass);
+            if (!container) return; // Hentikan jika slider tidak ada di halaman ini
+            
+            const dotsContainer = document.querySelector('.' + dotsClass);
+            const slides = container.querySelectorAll('.' + slideClass);
+            let slideIndex = 0;
+            let autoSlideInterval;
 
-        // Hentikan jika salah satu elemen penting tidak ditemukan
-        if (!container || !dotsContainer) {
-          return;
+            if (slides.length === 0) return;
+
+            // Buat dots jika ada dotsContainer
+            if (dotsContainer) {
+                dotsContainer.innerHTML = '';
+                for (let i = 0; i < slides.length; i++) {
+                    const dot = document.createElement('span');
+                    dot.className = 'dot';
+                    dot.onclick = () => showSpecificSlide(i);
+                    dotsContainer.appendChild(dot);
+                }
+            }
+            const dots = dotsContainer ? dotsContainer.querySelectorAll('.dot') : [];
+
+            function showSlides() {
+                for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                if (dots.length > 0) {
+                    for (let i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                }
+                
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                    slideIndex = 1;
+                }
+                
+                slides[slideIndex - 1].style.display = "block";
+                if (dots.length > 0) {
+                    dots[slideIndex - 1].className += " active";
+                }
+            }
+            
+            function showSpecificSlide(n) {
+                slideIndex = n;
+                showSlides();
+                // Reset interval saat dot di-klik
+                clearInterval(autoSlideInterval);
+                autoSlideInterval = setInterval(showSlides, interval);
+            }
+
+            showSlides(); // Tampilkan slide pertama
+            autoSlideInterval = setInterval(showSlides, interval); // Mulai auto-slide
         }
 
-        const slides = container.getElementsByClassName(slideClass);
-        let slideIndex = 0;
-        let timeoutId; // Variabel untuk menyimpan timer
+        // --- FUNGSI UNTUK FAQ (HANYA BUKA SATU) ---
+        function initializeExclusiveFAQ() {
+            const allDetails = document.querySelectorAll('.faq-section details');
+            if (allDetails.length === 0) return;
 
-        // Buat dots sejumlah slide
-        dotsContainer.innerHTML = ''; 
-        for (let i = 0; i < slides.length; i++) {
-            const dot = document.createElement('span');
-            dot.className = 'dot';
-            const slideNumber = i;
-            dot.onclick = () => showSpecificSlide(slideNumber);
-            dotsContainer.appendChild(dot);
-        }
-        const dots = dotsContainer.getElementsByClassName('dot');
-
-        // Fungsi utama untuk menampilkan slide
-        function showSlides() {
-          if (slides.length === 0) return;
-
-          for (let i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          
-          slideIndex++;
-          if (slideIndex > slides.length) {
-            slideIndex = 1
-          }
-
-          for (let i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          
-          slides[slideIndex - 1].style.display = "block";
-          dots[slideIndex - 1].className += " active";
-
-          // Hapus timer lama dan set timer baru agar tidak tumpang tindih
-          clearTimeout(timeoutId);
-          timeoutId = setTimeout(showSlides, interval);
-        }
-        
-        // Fungsi untuk pindah ke slide tertentu (saat dot di-klik)
-        function showSpecificSlide(n) {
-            slideIndex = n;
-            showSlides();
+            allDetails.forEach(details => {
+                details.addEventListener('toggle', event => {
+                    if (details.open) {
+                        allDetails.forEach(otherDetails => {
+                            if (otherDetails !== details) {
+                                otherDetails.open = false;
+                            }
+                        });
+                    }
+                });
+            });
         }
 
-        showSlides(); // Mulai slider
-      }
-
-      // Menjalankan fungsi untuk setiap slider setelah halaman dimuat
-      document.addEventListener('DOMContentLoaded', function() {
-          // Menjalankan slider utama, ganti slide setiap 5 detik
-          initializeSlider('slider-container', 'slide', 'slider-dots', 5000);
-          
-          // Menjalankan slider testimoni, ganti slide setiap 7 detik
-          initializeSlider('testimonial-slider-container', 'testimonial-slide', 'testimonial-dots', 7000);
-      });
+        // Menjalankan semua fungsi setelah halaman dimuat
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeSlider('slider-container', 'slide', 'slider-dots', 5000);
+            initializeSlider('testimonial-slider-container', 'testimonial-slide', 'testimonial-dots', 7000);
+            initializeExclusiveFAQ();
+        });
     </script>
-
-    ...
-  <!-- Start of Tawk.to Script -->
-  <script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/687ba7323ce405191c8c5d56/1j0hga89t';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
-  </script>
-  <!-- End of Tawk.to Script -->
-
+  
+    <script type="text/javascript">
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/687ba7323ce405191c8c5d56/1j0hga89t';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+    </script>
 </body>
 </html>

@@ -11,7 +11,7 @@ description: >-
   Jasa Buzzer Sosial Media Profesional untuk membuat brand dan konten Anda viral 
   di TikTok, Instagram, Twitter, dan platform lainnya.
 url: "https://auradigital.id"
-baseurl: "https://auradigital.id/" # karena kamu di root repo gh-pages
+baseurl: "" # karena kamu di root repo gh-pages
 lang: id
 
 # ===============================
